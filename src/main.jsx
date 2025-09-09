@@ -1,65 +1,252 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
-import Home from './Home.jsx'
-import CorporateLimoService from './CorporateLimoService.jsx'
-import ExecutiveCarHire from './ExecutiveCarHire.jsx'
-import CasinoLimoService from './CasinoLimoService.jsx'
-import AirportTransfers from './AirportTransfers.jsx'
-import WeddingCars from './WeddingCars.jsx'
-import LadiesNightOutLimoService from './LadiesNightOutLimoService.jsx'
-import Events from './Events.jsx'
-import AirportMeetandGreetServices from './AirportMeetandGreetServices.jsx'
-import Promotions from './Promotions.jsx'
-import BacheloretteServices from './BacheloretteServices.jsx'
-import LongDistanceLimoService from './LongDistanceLimoService.jsx'
-import LuxuryChauffeuringServices from './LuxuryChauffeuringServices.jsx'
-import About from './About.jsx'
-import LuxuryLimousine from './LuxuryLimousine.jsx'
-import BusCharter from './BusCharter.jsx'
-import AreasServed from './AreasServed.jsx'
-import Fleet from './Fleet.jsx'
-import Contact from './Contact.jsx'
-import OnlineReservations from './OnlineReservations.jsx'
-import Login from './Login.jsx'
-import LuxuryJetCharter from './LuxuryJetCharter.jsx'
-import CloseProtectionService from './CloseProtectionService.jsx'
-import SeaportsTransport from './SeaportsTransport.jsx'
+import { StrictMode, lazy, Suspense } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+
+// Lazy-loaded pages
+const Home = lazy(() => import("./Home.jsx"));
+const CorporateLimoService = lazy(() => import("./CorporateLimoService.jsx"));
+const ExecutiveCarHire = lazy(() => import("./ExecutiveCarHire.jsx"));
+const CasinoLimoService = lazy(() => import("./CasinoLimoService.jsx"));
+const AirportTransfers = lazy(() => import("./AirportTransfers.jsx"));
+const WeddingCars = lazy(() => import("./WeddingCars.jsx"));
+const LadiesNightOutLimoService = lazy(() =>
+  import("./LadiesNightOutLimoService.jsx")
+);
+const Events = lazy(() => import("./Events.jsx"));
+const AirportMeetandGreetServices = lazy(() =>
+  import("./AirportMeetandGreetServices.jsx")
+);
+const Promotions = lazy(() => import("./Promotions.jsx"));
+const BacheloretteServices = lazy(() =>
+  import("./BacheloretteServices.jsx")
+);
+const LongDistanceLimoService = lazy(() =>
+  import("./LongDistanceLimoService.jsx")
+);
+const LuxuryChauffeuringServices = lazy(() =>
+  import("./LuxuryChauffeuringServices.jsx")
+);
+const About = lazy(() => import("./About.jsx"));
+const LuxuryLimousine = lazy(() => import("./LuxuryLimousine.jsx"));
+const BusCharter = lazy(() => import("./BusCharter.jsx"));
+const AreasServed = lazy(() => import("./AreasServed.jsx"));
+const Fleet = lazy(() => import("./Fleet.jsx"));
+const Contact = lazy(() => import("./Contact.jsx"));
+const OnlineReservations = lazy(() => import("./OnlineReservations.jsx"));
+const Login = lazy(() => import("./Login.jsx"));
+const LuxuryJetCharter = lazy(() => import("./LuxuryJetCharter.jsx"));
+const CloseProtectionService = lazy(() =>
+  import("./CloseProtectionService.jsx")
+);
+const SeaportsTransport = lazy(() => import("./SeaportsTransport.jsx"));
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App/>}>
-      <Route index element={<Home/>}/>
-      <Route path='corporate-limo-service' element={< CorporateLimoService />} />
-      <Route path='executive-car-hire' element={< ExecutiveCarHire />} />
-      <Route path='casino-limo-service' element={< CasinoLimoService />} />
-      <Route path='airport-transfers' element={< AirportTransfers />} />
-      <Route path='wedding-cars' element={< WeddingCars />} />
-      <Route path='ladies-night-out-limo-service' element={< LadiesNightOutLimoService />} />
-      <Route path='luxury-chauffeuring-services-to-londons' element={< Events />} />
-      <Route path='airport-meet-and-greet-services' element={< AirportMeetandGreetServices />} />
-      <Route path='promotions' element={< Promotions />} />
-      <Route path='birthdays-bachelor-and-bachelorette-limo-service' element={< BacheloretteServices />} />
-      <Route path='long-distance-limo-service' element={< LongDistanceLimoService />} />
-      <Route path='luxury-chauffeuring-services' element={< LuxuryChauffeuringServices />} />
-      <Route path='luxury-jet-charter' element={< LuxuryJetCharter />} />
-      <Route path='close-protection-service' element={< CloseProtectionService />} />
-      <Route path='seaports-transport' element={< SeaportsTransport />} />
-      <Route path='about' element={< About />} />
-      <Route path='luxury-limousine' element={< LuxuryLimousine />} />
-      <Route path='bus-charter' element={< BusCharter />} />
-      <Route path='areas-served' element={< AreasServed />} />
-      <Route path='fleet' element={< Fleet />} />
-      <Route path='contact' element={< Contact />} />
-      <Route path='online-reservations' element={< OnlineReservations />} />
-      <Route path='login' element={< Login />} />
+    <Route path="/" element={<App />}>
+      <Route
+        index
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <Home />
+          </Suspense>
+        }
+      />
+      <Route
+        path="corporate-limo-service"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <CorporateLimoService />
+          </Suspense>
+        }
+      />
+      <Route
+        path="executive-car-hire"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <ExecutiveCarHire />
+          </Suspense>
+        }
+      />
+      <Route
+        path="casino-limo-service"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <CasinoLimoService />
+          </Suspense>
+        }
+      />
+      <Route
+        path="airport-transfers"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <AirportTransfers />
+          </Suspense>
+        }
+      />
+      <Route
+        path="wedding-cars"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <WeddingCars />
+          </Suspense>
+        }
+      />
+      <Route
+        path="ladies-night-out-limo-service"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <LadiesNightOutLimoService />
+          </Suspense>
+        }
+      />
+      <Route
+        path="luxury-chauffeuring-services-to-londons"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <Events />
+          </Suspense>
+        }
+      />
+      <Route
+        path="airport-meet-and-greet-services"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <AirportMeetandGreetServices />
+          </Suspense>
+        }
+      />
+      <Route
+        path="promotions"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <Promotions />
+          </Suspense>
+        }
+      />
+      <Route
+        path="birthdays-bachelor-and-bachelorette-limo-service"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <BacheloretteServices />
+          </Suspense>
+        }
+      />
+      <Route
+        path="long-distance-limo-service"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <LongDistanceLimoService />
+          </Suspense>
+        }
+      />
+      <Route
+        path="luxury-chauffeuring-services"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <LuxuryChauffeuringServices />
+          </Suspense>
+        }
+      />
+      <Route
+        path="luxury-jet-charter"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <LuxuryJetCharter />
+          </Suspense>
+        }
+      />
+      <Route
+        path="close-protection-service"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <CloseProtectionService />
+          </Suspense>
+        }
+      />
+      <Route
+        path="seaports-transport"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <SeaportsTransport />
+          </Suspense>
+        }
+      />
+      <Route
+        path="about"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <About />
+          </Suspense>
+        }
+      />
+      <Route
+        path="luxury-limousine"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <LuxuryLimousine />
+          </Suspense>
+        }
+      />
+      <Route
+        path="bus-charter"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <BusCharter />
+          </Suspense>
+        }
+      />
+      <Route
+        path="areas-served"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <AreasServed />
+          </Suspense>
+        }
+      />
+      <Route
+        path="fleet"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <Fleet />
+          </Suspense>
+        }
+      />
+      <Route
+        path="contact"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <Contact />
+          </Suspense>
+        }
+      />
+      <Route
+        path="online-reservations"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <OnlineReservations />
+          </Suspense>
+        }
+      />
+      <Route
+        path="login"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <Login />
+          </Suspense>
+        }
+      />
     </Route>
   )
-)
+);
 
-const root = createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
     <RouterProvider router={router} />

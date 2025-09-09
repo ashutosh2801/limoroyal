@@ -140,7 +140,7 @@ const Home = () => {
                 </div>
               </div>
               <div className='grid md:grid-cols-2 md:space-x-5 space-y-5 lg:space-y-0 mt-10 lg:mt-20'>
-                <div className='relative' data-aos="fade-left">
+                <div className='relative' data-aos="fade-up">
                   {!isPlaying ? (
                     <div  onClick={handlePlay} className="relative cursor-pointer">
                       <img src={VideoThumbnail} className="w-full h-64 md:h-100 lg:h-180 object-cover rounded-md" />
@@ -152,7 +152,7 @@ const Home = () => {
                     <video ref={videoRef} src={carvideo} className="w-full h-64 md:h-100 lg:h-180 object-cover rounded-md" controls={isPlaying} />
                   )}
                 </div>
-                <div data-aos="fade-right">
+                <div data-aos="fade-up">
                   <img src={CarBanner} className="w-full h-64 md:h-100 lg:h-180 object-cover rounded-md" />
                 </div>
               </div>
@@ -184,7 +184,7 @@ const Home = () => {
               <div className='container mx-auto px-2'>
                 <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5 font-medium'>Our Values: <br></br> Luxury, Precision, Royal Treatment</h2>
                 <div className='grid lg:grid-cols-3 lg:space-x-5 space-y-5 lg:space-y-0 mt-10'>
-                  <div className='backdrop-blur-md bg-[#1b1b1b]/60 p-6' data-aos="fade-left">
+                  <div className='backdrop-blur-md bg-[#1b1b1b]/60 p-6' data-aos="fade-up">
                     <h4 className='text-white text-xl lg:text-2xl mb-5'>Luxury Above All</h4>
                     <p className='text-base leading-relaxed webFontColor'>Every detail of our service is crafted with luxury in mind. From the hand-selected fleet to our team of professional chauffeurs, Limo Royale embodies elegance, exclusivity, and refinement.</p>
                   </div>
@@ -192,7 +192,7 @@ const Home = () => {
                     <h4 className='text-white text-xl lg:text-2xl mb-5'>Precision & Punctualit</h4>
                     <p className='text-base leading-relaxed webFontColor'>We understand the value of time. Our commitment to punctuality and professionalism ensures that every journey with Limo Royale is smooth, reliable, and stress-free. Our experienced chauffeurs are trained not only in safe driving but also in delivering the highest level of service.</p>
                   </div>
-                  <div className='backdrop-blur-md bg-[#1b1b1b]/60 p-6' data-aos="fade-right">
+                  <div className='backdrop-blur-md bg-[#1b1b1b]/60 p-6' data-aos="fade-up">
                     <h4 className='text-white text-xl lg:text-2xl mb-5'>Royal Treatment</h4>
                     <p className='text-base leading-relaxed webFontColor'>At Limo Royale, you are more than a client—you are a guest of honor. We treat every booking as an opportunity to deliver a royal experience, ensuring that our clients feel pampered and valued. Our dedication to customer service goes beyond the standard; it’s about creating an atmosphere of sophistication, comfort, and care.</p>
                   </div>
@@ -210,7 +210,7 @@ const Home = () => {
               <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5 font-medium' data-aos="fade-up">Royale Excellence in Cleanliness and Vehicle Maintenance</h2>
               <p className='text-base leading-relaxed webFontColor' data-aos="fade-up">At <b>Limo Royale</b>, every journey is meticulously planned and executed to perfection. We take pride in ensuring that our fleet not only meets but exceeds the expectations of our discerning clients. That’s why we have a <b>dedicated team of professionals</b> who conduct thorough <b>vehicle cleanliness and quality checks</b> before each pickup. Every vehicle is detailed to immaculate standards, ensuring that your experience with us is luxurious from the moment you step inside. <br></br><br></br>Our commitment to maintaining the <b>highest quality standards</b> means that no detail is overlooked. From spotless interiors to the flawless performance of our vehicles, we guarantee that your ride will be as smooth and elegant as possible.</p>
               <div className='grid md:grid-cols-3 md:space-x-5 space-y-5 lg:space-y-0 my-10'>
-                <div className='webBorderColor border rounded-lg p-5' data-aos="fade-left">
+                <div className='webBorderColor border rounded-lg p-5' data-aos="fade-up">
                   <img src={Icon1} className='filter brightness-0 invert' />
                   <h5 className='text-white text-xl lg:text-3xl mt-5 font-medium'>Reclining seats</h5>
                 </div>
@@ -218,7 +218,7 @@ const Home = () => {
                   <img src={Icon2} className='filter brightness-0 invert' />
                   <h5 className='text-white text-xl lg:text-3xl mt-5 font-medium'>State-of-the-art sound systems</h5>
                 </div>
-                <div className='webBorderColor border rounded-lg p-5' data-aos="fade-right">
+                <div className='webBorderColor border rounded-lg p-5' data-aos="fade-up">
                   <img src={Icon3} className='filter brightness-0 invert' />
                   <h5 className='text-white text-xl lg:text-3xl mt-5 font-medium'>Premium amenities</h5>
                 </div>

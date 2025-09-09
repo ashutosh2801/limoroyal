@@ -5,23 +5,31 @@ import Footer from './components/Footer'
 import { Outlet } from 'react-router-dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import FloatingActions from './components/FloatingActions'
 
 function App() {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
-    AOS.init({ duration: 800, once: true });
-  }, []);
+  document.body.classList.add("preload");
+  AOS.init({
+    duration: 800,
+    once: true,
+  });
+  setTimeout(() => {
+    document.body.classList.remove("preload");
+  }, 800); // match AOS duration
+}, []);
+
 
   return (
     <>
-
       <Header />
-      <main>
+      <main className='min-h-screen flex flex-col'>
         <Outlet />
       </main>
       <Footer />
-      
+      <FloatingActions />
     </>
   )
 }
