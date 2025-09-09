@@ -3,10 +3,18 @@ import ServiceSidePanel from './components/ServiceSidePanel'
 import ServiceFaq from './components/ServiceFaq'
 import CustomerExperiences from './components/CustomerExperiences'
 import ExecutiveBanner from '../src/assets/services/executive-service.jpg'
+import { Helmet } from 'react-helmet'
 
 const ExecutiveCarHire = () => {
   return (
     <div>
+        <Helmet>
+            <title>Executive Car Hire & Airport Transfer Experts | LimoRoyal</title>
+            <meta name="description" content="Professional executive car hire with flexible airport pickup and transfer options—luxury and efficiency combined." />
+            <meta name="keywords" content="airport pickup, airport transfer" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="canonical" href="https://limoroyal.com/executive-car-hire" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

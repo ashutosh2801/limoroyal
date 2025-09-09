@@ -1,9 +1,16 @@
 import React from 'react'
 import EventBanner from '../src/assets/slides/2.jpg'
+import { Helmet } from 'react-helmet'
 
 const BusCharter = () => {
   return (
     <div>
+        <Helmet>
+            <title>Bus Charter & Airport Transfer Limo Options | LimoRoyal</title>
+            <meta name="description" content="Group bus charter services with optional airport limo transfers—travel together with flexibility and class." />
+            <meta name="keywords" content="airport transfer, airport limo service" />
+            <link rel="canonical" href="https://limoroyal.com/bus-charter" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='bus-page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

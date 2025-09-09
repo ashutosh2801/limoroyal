@@ -6,10 +6,17 @@ import AboutBanner2 from '../src/assets/banners/about-banner2.jpg'
 import AboutBanner3 from '../src/assets/banners/about-banner3.jpg'
 import GlobalImg1 from '../src/assets/banners/global-1.jpg'
 import GlobalImg2 from '../src/assets/banners/global-2.jpg'
+import { Helmet } from 'react-helmet'
 
 const About = () => {
   return (
     <div>
+      <Helmet>
+        <title>About LimoRoyal | Airport Chauffeur Service Experts</title>
+        <meta name="description" content="Discover LimoRoyal—specialists in airport chauffeur service and luxury transfers, committed to excellence and reliability." />
+        <meta name="keywords" content="airport chauffeur service, airport transfer" />
+        <link rel="canonical" href="https://limoroyal.com/about" />
+      </Helmet>
       <div>
         <div className='relative'>
           <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

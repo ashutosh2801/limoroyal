@@ -11,6 +11,7 @@ import AreasBanner5 from '../src/assets/areas-served/5.jpg'
 import AreasBanner6 from '../src/assets/areas-served/6.jpg'
 import AreasBanner7 from '../src/assets/areas-served/7.jpg'
 import AreasBanner8 from '../src/assets/areas-served/8.jpg'
+import { Helmet } from 'react-helmet'
 
 const AreasServed = () => {
     const swiperRef = useRef(null);
@@ -30,6 +31,12 @@ const AreasServed = () => {
     ]
   return (
     <div>
+        <Helmet>
+            <title>Areas We Serve for Airport Limo & Transfers | LimoRoyal</title>
+            <meta name="description" content="Explore regions covered by our airport limo and transfer services—local convenience backed by luxury." />
+            <meta name="keywords" content="airport limo service near me, limo airport service near me" />
+            <link rel="canonical" href="https://limoroyal.com/areas-served" />
+        </Helmet>
         <div>
             <div className='relative'>
             <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

@@ -3,10 +3,18 @@ import ServiceSidePanel from './components/ServiceSidePanel'
 import AirportMeetBanner from '../src/assets/services/airport-meet.jpg'
 import CustomerExperiences from './components/CustomerExperiences'
 import ServiceFaq from './components/ServiceFaq'
+import { Helmet } from 'react-helmet'
 
 const AirportMeetandGreetServices = () => {
   return (
     <div>
+        <Helmet>
+            <title>Airport Meet & Greet with Chauffeur Service | LimoRoyal</title>
+            <meta name="description" content="Warm airport meet and greet paired with a professional chauffeur service—luxury limo airport service starts here." />
+            <meta name="keywords" content="limo airport service near me, airport chauffeur service" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="canonical" href="https://limoroyal.com/airport-meet-and-greet-services" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

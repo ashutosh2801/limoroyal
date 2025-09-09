@@ -1,8 +1,15 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const Login = () => {
   return (
     <div>
+        <Helmet>
+            <title>Client Login | Manage Airport Limo Bookings | LimoRoyal</title>
+            <meta name="description" content="Access your account to manage airport limo and chauffeur service bookings securely and conveniently." />
+            <meta name="keywords" content="airport limo service, airport chauffeur service" />
+            <link rel="canonical" href="https://limoroyal.com/login" />
+        </Helmet>
         <div className='relative'>
             <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>
             <div className='relative z-10 pt-50 lg:pt-80 pb-30'>

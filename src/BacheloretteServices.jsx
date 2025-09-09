@@ -3,10 +3,17 @@ import ServiceSidePanel from './components/ServiceSidePanel'
 import BacheloretteBanner from '../src/assets/services/bachelorette-service.jpg'
 import CustomerExperiences from './components/CustomerExperiences'
 import ServiceFaq from './components/ServiceFaq'
+import { Helmet } from 'react-helmet'
 
 const BacheloretteServices = () => {
   return (
     <div>
+        <Helmet>
+            <title>Party Limo for Birthdays & Bachelorette | Airport Limo Too | LimoRoyal</title>
+            <meta name="description" content="Celebrate with style—birthday, bachelor, and bachelorette limo service with optional airport pickup and limo transfer." />
+            <meta name="keywords" content="airport pickup, airport transfer" />
+            <link rel="canonical" href="https://limoroyal.com/birthdays-bachelor-and-bachelorette-limo-service" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

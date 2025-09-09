@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { PhoneIcon, EnvelopeIcon, MapPinIcon, GlobeAltIcon } from '@heroicons/react/24/outline';
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
 
@@ -15,6 +16,12 @@ const Contact = () => {
 
   return (
     <div>
+        <Helmet>
+            <title>Contact LimoRoyal | Airport Limo Service Near Me</title>
+            <meta name="description" content="Get in touch for airport limo service near me, limo airport service, or any transport inquiries—contact LimoRoyal today." />
+            <meta name="keywords" content="airport limo service near me, limo airport service near me" />
+            <link rel="canonical" href="https://limoroyal.com/contact" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

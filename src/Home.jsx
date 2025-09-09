@@ -24,12 +24,12 @@ import Icon2 from '../src/assets/icons/icon-2.png'
 import Icon3 from '../src/assets/icons/icon-3.png'
 import Gallery from '../src/components/Gallery'
 import Testimonials from './components/Testimonials'
-
+import { Helmet } from "react-helmet";
 
 const Home = () => {
 
   const videoRef = useRef(null)
-  const [isPlaying, setIsPlaying] = useState(false)
+  const [isPlaying, setIsPlaying] = useState(false)  
 
   const handlePlay = () => {
     setIsPlaying(true)
@@ -40,6 +40,14 @@ const Home = () => {
   
   return (
     <div>
+      <Helmet>
+        <title>Luxury Limo & Airport Chauffeur Service | LimoRoyal</title>
+        <meta name="description" content="Experience premium airport chauffeur service and luxury limo rides. Reliable, elegant, and tailored for your comfort—book now with LimoRoyal." />
+        <meta name="keywords" content="airport chauffeur service, airport limo service" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://limoroyal.com" />
+      </Helmet>
+
       <Slider />
         <div >
           <div className='container mx-auto px-2'>

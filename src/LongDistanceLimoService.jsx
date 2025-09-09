@@ -7,6 +7,12 @@ import ServiceFaq from './components/ServiceFaq'
 const LongDistanceLimoService = () => {
   return (
     <div>
+        <Helmet>
+            <title>Long Distance Limo & Airport Limo Transfers | LimoRoyal</title>
+            <meta name="description" content="Comfortable long-distance limo service with reliable airport limo transfers—travel smoothly, near or far." />
+            <meta name="keywords" content="airport limo, airport transfer" />
+            <link rel="canonical" href="https://limoroyal.com/long-distance-limo-service" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

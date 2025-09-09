@@ -3,10 +3,18 @@ import ServiceSidePanel from './components/ServiceSidePanel'
 import WeddingBanner from '../src/assets/services/wedding-service.jpg'
 import CustomerExperiences from './components/CustomerExperiences'
 import ServiceFaq from './components/ServiceFaq'
+import { Helmet } from 'react-helmet'
 
 const WeddingCars = () => {
   return (
     <div>
+        <Helmet>
+            <title>Wedding Cars & Airport Limo Service | LimoRoyal</title>
+            <meta name="description" content="Elegant wedding cars and airport limo service to make your big day perfect—reliable transport for your special moments." />
+            <meta name="keywords" content="airport limo service, airport limo" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="canonical" href="https://limoroyal.com/wedding-cars" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>
