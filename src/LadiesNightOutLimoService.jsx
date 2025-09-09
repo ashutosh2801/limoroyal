@@ -3,10 +3,18 @@ import ServiceSidePanel from './components/ServiceSidePanel'
 import LadiesNightBanner from '../src/assets/services/ladies-nightout.jpg'
 import CustomerExperiences from './components/CustomerExperiences'
 import ServiceFaq from './components/ServiceFaq'
+import { Helmet } from 'react-helmet'
 
 const LadiesNightOutLimoService = () => {
   return (
     <div>
+        <Helmet>
+            <title>Ladies Night Out Limo & Airport Limo | LimoRoyal</title>
+            <meta name="description" content="Glamorous ladies night out limo service plus optional airport limo service—fun, style, and convenience all in one." />
+            <meta name="keywords" content="airport limo, airport limo service" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="canonical" href="https://limoroyal.com/ladies-night-out-limo-service" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

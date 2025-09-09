@@ -3,10 +3,18 @@ import ServiceSidePanel from './components/ServiceSidePanel'
 import PromotionsBanner from '../src/assets/services/promotions-service.jpg'
 import CustomerExperiences from './components/CustomerExperiences'
 import ServiceFaq from './components/ServiceFaq'
+import { Helmet } from 'react-helmet'
 
 const Promotions = () => {
   return (
     <div>
+        <Helmet>
+            <title>Limo Promotions & Airport Chauffeur Deals | LimoRoyal</title>
+            <meta name="description" content="Special offers on airport chauffeur service and limo rides—grab the best deals from LimoRoyal now." />
+            <meta name="keywords" content="airport chauffeur service, airport limo service" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="canonical" href="https://limoroyal.com/promotions" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

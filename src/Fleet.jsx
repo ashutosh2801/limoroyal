@@ -16,10 +16,17 @@ import Stretch1 from '../src/assets/limousines/stretch.png'
 import Stretch2 from '../src/assets/limousines/limo.png'
 import Stretch3 from '../src/assets/limousines/ultra-stretch.png'
 import Stretch4 from '../src/assets/limousines/royale-stretch.png'
+import { Helmet } from 'react-helmet';
 
 const Fleet = () => {
   return (
     <div>
+        <Helmet>
+            <title>Fleet of Luxury Airport Limos | LimoRoyal</title>
+            <meta name="description" content="View our fleet of luxury airport limos—diverse vehicles for every occasion, from elegant arrivals to top-tier chauffeur service." />
+            <meta name="keywords" content="airport limo, airport chauffeur service" />
+            <link rel="canonical" href="https://limoroyal.com/fleet" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

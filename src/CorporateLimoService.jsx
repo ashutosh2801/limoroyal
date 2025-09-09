@@ -1,10 +1,18 @@
 import React from 'react'
 import CorporateBanner from '../src/assets/services/corporate-service.jpg'
 import ServiceSidePanel from './components/ServiceSidePanel'
+import { Helmet } from 'react-helmet'
 
 const CorporateLimoService = () => {
   return (
     <div>
+        <Helmet>
+            <title>Corporate Limo Service & Airport Transfers | LimoRoyal</title>
+            <meta name="description" content="Executive corporate limo service including limo ride to airport and seamless airport transfer solutions—on time, every time." />
+            <meta name="keywords" content="limo ride to airport, airport transfer" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="canonical" href="https://limoroyal.com/corporate-limo-service" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

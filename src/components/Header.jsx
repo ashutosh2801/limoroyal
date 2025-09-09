@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { PhoneIcon, Bars3Icon, XMarkIcon, ChevronDownIcon } from '@heroicons/react/24/solid'
 import logo from "../assets/limo-royale.png";
 import { useLocation } from "react-router-dom";
+import FloatingActions from '../FloatingActions';
 
 const Header = () => {
     const [isDesktopMenuOpen, setIsDesktopMenuOpen] = useState(false);
@@ -202,6 +203,7 @@ const Header = () => {
                 </div>
             </div>
         </nav>
+        <FloatingActions />
     </div>
   )
 }

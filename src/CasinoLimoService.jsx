@@ -2,10 +2,19 @@ import React from 'react'
 import ServiceSidePanel from './components/ServiceSidePanel'
 import CasinoBanner from '../src/assets/services/casino-service.jpg'
 import CustomerExperiences from './components/CustomerExperiences'
+import { Helmet } from 'react-helmet'
 
 const CasinoLimoService = () => {
   return (
     <div>
+        <Helmet>
+            <title>Casino Limo Service & Airport Chauffeur | LimoRoyal</title>
+            <meta name="description" content="Arrive in style—top-tier limo service to airport and casino experiences. Luxury on demand with airport limo service near me convenience." />
+            <meta name="keywords" content="limo service to airport near me, airport limo service near me" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="canonical" href="https://limoroyal.com/casino-limo-service" />
+        </Helmet>
+
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

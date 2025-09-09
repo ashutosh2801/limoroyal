@@ -1,8 +1,15 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const LuxuryLimousine = () => {
   return (
     <div>
+        <Helmet>
+            <title>Luxury Limousine & Airport Limo | LimoRoyal</title>
+            <meta name="description" content="Premium luxury limousine hire and seamless airport limo options—ride in comfort and elegance." />
+            <meta name="keywords" content="airport limo, airport limo service" />
+            <link rel="canonical" href="https://limoroyal.com/luxury-limousine" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

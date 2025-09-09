@@ -3,10 +3,18 @@ import ServiceSidePanel from './components/ServiceSidePanel'
 import chauffeuringBanner from '../src/assets/services/chauffeuring-services.jpg'
 import CustomerExperiences from './components/CustomerExperiences'
 import ServiceFaq from './components/ServiceFaq'
+import { Helmet } from 'react-helmet'
 
 const LuxuryChauffeuringServices = () => {
   return (
     <div>
+        <Helmet>
+            <title>Luxury Chauffeuring & Airport Limo Service London | LimoRoyal</title>
+            <meta name="description" content="Premier luxury chauffeur service in London, including dedicated airport limo and seamless transfers—luxury you can trust." />
+            <meta name="keywords" content="airport limo service, airport chauffeur service" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="canonical" href="https://limoroyal.com/luxury-chauffeuring-services-to-londons" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

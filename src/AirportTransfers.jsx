@@ -3,10 +3,18 @@ import ServiceSidePanel from './components/ServiceSidePanel'
 import AirportBanner from '../src/assets/services/airport-service.jpg'
 import CustomerExperiences from './components/CustomerExperiences'
 import ServiceFaq from './components/ServiceFaq'
+import { Helmet } from 'react-helmet'
 
 const AirportTransfers = () => {
   return (
     <div>
+        <Helmet>
+            <title>Airport Transfer & Limo to the Airport | LimoRoyal</title>
+            <meta name="description" content="Convenient airport transfer and limo to the airport services—stress-free arrival and departure with comfort and elegance." />
+            <meta name="keywords" content="limo to the airport, airport transfer" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="canonical" href="https://limoroyal.com/airport-transfers" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>
