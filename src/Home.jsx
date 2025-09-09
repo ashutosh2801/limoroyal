@@ -134,15 +134,15 @@ const Home = () => {
                 <h3 className='text-white text-2xl mb-15'>What Makes Limo Royale Unique?</h3>
                 <div className='grid lg:grid-cols-3 lg:space-x-20 space-y-10 lg:space-y-0'>
                   <div>
-                    <h4 className='text-white text-xl lg:text-2xl mb-5'>A Royal Experience, Every Time</h4>
+                    <h4 className='text-white text-xl lg:text-xl mb-5'>A Royal Experience, Every Time</h4>
                     <p className='text-base leading-relaxed webFontColor'>Our service extends beyond merely transporting our clients from one location to another. It is all about making them enjoy the comfort level and luxury of travelling in our fleet. We prioritize privacy and comfort, making you feel special and cared for the moment you step into our vehicle. Clients enjoy being treated like royalty.</p>
                   </div>
                   <div>
-                    <h4 className='text-white text-xl lg:text-2xl mb-5'>Exclusive Fleet Under Two Years Old</h4>
-                    <p className='text-base leading-relaxed webFontColor'>We ensure each one of our vehicles is maintained and up to date with the latest technological advancements in the automotive industry. All our vehicles are under two years old, ensuring our clients experience the best service in a vehicle kept in good condition. You can travel in comfort in a vehicle equipped with the latest technology. Whether you prefer the simple style of a Sedan or the commanding presence of an SUV, the choice is yours.</p>
+                    <h4 className='text-white text-xl lg:text-xl mb-5'>Exclusive Fleet Under Two Years Old</h4>
+                    <p className='text-base leading-relaxed webFontColor'>We ensure each one of our vehicles is maintained and up to date with the latest technological advancements in the automotive industry. All our vehicles are under two years old, ensuring our clients experience the best service in a vehicle kept in good condition. You can travel in comfort in a vehicle equipped with the latest technology.</p>
                   </div>
-                  <div>
-                    <h4 className='text-white text-xl lg:text-2xl mb-5'>Personalized Service</h4>
+                  <div className='lg:mr-[60px]'>
+                    <h4 className='text-white text-xl lg:text-xl mb-5'>Personalized Service</h4>
                     <p className='text-base leading-relaxed webFontColor'>Every small detail matters to us at Limo Royale. We curate personalized itineraries for our clients, ensuring they enjoy their journey to the fullest. The best experience comes with VIP treatment at every stage of the journey. We meticulously plan your journey, prioritizing luxury and comfort every step of the way.</p>
                   </div>
                 </div>
