@@ -56,7 +56,7 @@ const Home = () => {
                 <h2 className='text-white text-2xl lg:text-4xl mb-5 lg:mb-0 leading-snug font-medium'>Experience True Luxury with Over 20 Years of Global Expertise</h2>
               </div>
               <div>
-                <p className='webFontColor text-base leading-relaxed'>At Limo Royale, we are more than just a transportation company—we are curators of unforgettable, luxurious experiences. With over 20 years of expertise spanning multiple countries, including our deep involvement in the hotel and hospitality industry, we understand better than anyone how to deliver exceptional service. Our goal is not just to offer limo rides, but to provide a royal experience that sets a new standard in luxury transportation.</p>
+                <p className='webFontColor text-base leading-relaxed'>At Limo Royale, we go beyond providing simply transportation services. In fact, our goal is to provide a luxurious, memorable, and most satisfactory experience to our clientele. With more than 20 years of experience spanning multiple countries across the globe, we truly understand what clients require. Our expertise in the hotel and hospitality industries adds more depth to our service to clients. Our objective is to provide clients with a royal experience that exceeds expectations in luxury transportation.</p>
                 <a href='tel:4167255466' className='webFontColor mt-5 block'>
                   <div className='bg-white rounded-full px-4 lg:px-5 py-4 mr-2 inline-block'><FontAwesomeIcon icon={faHeadset} className="text-red-800 text-3xl" /></div> <span className='webColor'>Call Center:</span> 416-725-5466
                 </a>
@@ -127,7 +127,7 @@ const Home = () => {
                 <small className='text-sm webColor uppercase'>Finest Transport</small>
                 <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Our Legacy of Excellence</h2>
                 <p className='text-base leading-relaxed webFontColor'>
-                  Having worked with elite clients across the globe, we know that true luxury is not about flashy exteriors—it’s about the details that make every journey special. At Limo Royale, we blend our knowledge of the hospitality industry with our passion for delivering unparalleled transportation services. We’ve served VIPs, business executives, and high-profile clients who demand the very best, and that’s exactly what we deliver. Our expertise in the hospitality industry gives us a unique edge: we understand what it takes to make our clients feel truly royal.
+                  True luxury is not about the outer appearance of the fleet. Instead, it’s about making you feel extra special and comfortable along your journey. Our knowledge in the hospitality industry makes our service all the more special to our clients. We’ve served high-profile clients, including VIPs and business executives, which gives us a unique edge and enables us to provide a royal service all the way.
                 </p>
               </div>
               <div data-aos="fade-up">
@@ -135,15 +135,15 @@ const Home = () => {
                 <div className='grid lg:grid-cols-3 lg:space-x-20 space-y-10 lg:space-y-0'>
                   <div>
                     <h4 className='text-white text-xl lg:text-2xl mb-5'>A Royal Experience, Every Time</h4>
-                    <p className='text-base leading-relaxed webFontColor'>Unlike other limo services, we don’t believe in just getting you from point A to point B. With Limo Royale, no detail is too small. We are committed to creating a royal experience from the moment you step into one of our vehicles. Our approach is different because we prioritize your comfort, privacy, and the feeling of being treated like royalty. Our clients enjoy it.</p>
+                    <p className='text-base leading-relaxed webFontColor'>Our service extends beyond merely transporting our clients from one location to another. It is all about making them enjoy the comfort level and luxury of travelling in our fleet. We prioritize privacy and comfort, making you feel special and cared for the moment you step into our vehicle. Clients enjoy being treated like royalty.</p>
                   </div>
                   <div>
                     <h4 className='text-white text-xl lg:text-2xl mb-5'>Exclusive Fleet Under Two Years Old</h4>
-                    <p className='text-base leading-relaxed webFontColor'>To ensure that our clients always experience the height of luxury, we keep our entire fleet less than two years old. Each vehicle is meticulously maintained, equipped with the latest in comfort, technology, and performance. Whether you prefer the smooth sophistication of a luxury sedan or the commanding presence of an SUV.</p>
+                    <p className='text-base leading-relaxed webFontColor'>We ensure each one of our vehicles is maintained and up to date with the latest technological advancements in the automotive industry. All our vehicles are under two years old, ensuring our clients experience the best service in a vehicle kept in good condition. You can travel in comfort in a vehicle equipped with the latest technology. Whether you prefer the simple style of a Sedan or the commanding presence of an SUV, the choice is yours.</p>
                   </div>
                   <div>
                     <h4 className='text-white text-xl lg:text-2xl mb-5'>Personalized Service</h4>
-                    <p className='text-base leading-relaxed webFontColor'>With Limo Royale, no detail is too small. Our clients enjoy a personalized travel experience that reflects their unique needs and preferences. From tailored itineraries to VIP treatment at every stage of the journey, we ensure that your travel with us is seamless and truly memorable. Our dedicated team meticulously plans every aspect, providing luxury, comfort, and convenience</p>
+                    <p className='text-base leading-relaxed webFontColor'>Every small detail matters to us at Limo Royale. We curate personalized itineraries for our clients, ensuring they enjoy their journey to the fullest. The best experience comes with VIP treatment at every stage of the journey. We meticulously plan your journey, prioritizing luxury and comfort every step of the way.</p>
                   </div>
                 </div>
               </div>
@@ -173,7 +173,7 @@ const Home = () => {
               <div className='w-full lg:w-2/5'>
                 <small className='webColor uppercase'>Premium drivers</small>
                 <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5 font-medium'>Our Global Experience</h2>
-                <p className='text-base leading-relaxed webFontColor'>With over <b>two decades of experience</b> across various regions and industries, <b>Limo Royale</b> has gained invaluable insight into what it takes to serve clients at the highest level. Our deep roots in the <b>luxury hotel industry</b> have taught us the importance of not just meeting expectations, but <b>exceeding them</b>. We don’t aim to be just another limo service—we strive to be the <b>best</b>, offering an experience that mirrors the finest standards of hospitality found in the world’s leading hotel chains.</p>
+                <p className='text-base leading-relaxed webFontColor'>Limo Royale knows how to best serve its clients with expertise gained over two years in the industry. Experience in the hotel industry has taught us the importance of maintaining client satisfaction throughout. We don’t just meet expectations – we exceed them. We strive to be the best in the industry, providing the highest level of service to the clients, going beyond simply being yet another limo service.</p>
                 <a href='/online-reservations' className='inline-block book-now-slide text-sm px-9 py-4 mt-10 uppercase'>Book Now</a>
               </div>
               <div className='w-full lg:w-3/5'>
