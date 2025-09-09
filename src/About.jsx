@@ -91,7 +91,7 @@ const About = () => {
           <div className='container mx-auto px-2'>
             <h2 className='text-white text-2xl lg:text-3xl leading-snug my-5 font-medium'>Our Values: Luxury, Precision, Royal Treatment</h2>
             <div className='grid lg:grid-cols-3 lg:space-x-5 space-y-5 lg:space-y-0 mt-10'>
-              <div className='bg-[#0a0a0a] p-6' data-aos="fade-left">
+              <div className='bg-[#0a0a0a] p-6' data-aos="fade-up">
                 <h4 className='text-white text-xl lg:text-2xl mb-5'>Luxury Above All</h4>
                 <p className='text-base leading-relaxed webFontColor'>Every detail of our service is crafted with luxury in mind. From the hand-selected fleet to our team of professional chauffeurs, Limo Royale embodies elegance, exclusivity, and refinement.</p>
               </div>
@@ -99,7 +99,7 @@ const About = () => {
                 <h4 className='text-white text-xl lg:text-2xl mb-5'>Precision & Punctualit</h4>
                 <p className='text-base leading-relaxed webFontColor'>We understand the value of time. Our commitment to punctuality and professionalism ensures that every journey with Limo Royale is smooth, reliable, and stress-free. Our experienced chauffeurs are trained not only in safe driving but also in delivering the highest level of service.</p>
               </div>
-              <div className='bg-[#0a0a0a] p-6' data-aos="fade-right">
+              <div className='bg-[#0a0a0a] p-6' data-aos="fade-up">
                 <h4 className='text-white text-xl lg:text-2xl mb-5'>Royal Treatment</h4>
                 <p className='text-base leading-relaxed webFontColor'>At Limo Royale, you are more than a client—you are a guest of honor. We treat every booking as an opportunity to deliver a royal experience, ensuring that our clients feel pampered and valued. Our dedication to customer service goes beyond the standard; it’s about creating an atmosphere of sophistication, comfort, and care.</p>
               </div>
@@ -149,7 +149,7 @@ const About = () => {
             <h2 className='text-white text-2xl lg:text-3xl leading-snug my-5 font-medium'>Why Choose a Royale Chauffeur?</h2>
             <p className='text-base leading-relaxed webFontColor pr-0 lg:pr-150'>When you travel with Limo Royale, you are in the capable hands of highly experienced professionals who go above and beyond to ensure your comfort, safety, and satisfaction</p>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 md:space-x-4 space-y-5 lg:space-y-0 mt-10'>
-              <div className='bg-[#0a0a0a] p-6' data-aos="fade-left">
+              <div className='bg-[#0a0a0a] p-6' data-aos="fade-up">
                 <h4 className='text-white text-xl lg:text-2xl mb-5'>Experience & Expertise</h4>
                 <p className='text-base leading-relaxed webFontColor'>Our chauffeurs have decades of experience navigating both local and international routes, ensuring that every journey is flawless and efficient.</p>
               </div>
@@ -161,7 +161,7 @@ const About = () => {
                 <h4 className='text-white text-xl lg:text-2xl mb-5'>Royal Service</h4>
                 <p className='text-base leading-relaxed webFontColor'>Beyond driving, our chauffeurs excel in delivering a discreet, professional, and courteous service, attending to your needs with precision and care.</p>
               </div>
-              <div className='bg-[#0a0a0a] p-6' data-aos="fade-right">
+              <div className='bg-[#0a0a0a] p-6' data-aos="fade-up">
                 <h4 className='text-white text-xl lg:text-2xl mb-5'>Seamless Journeys</h4>
                 <p className='text-base leading-relaxed webFontColor'>Whether it’s navigating city traffic or ensuring timely arrivals for events, your Royale Chauffeur is committed to making your journey as smooth and stress-free as possible.</p>
               </div>
