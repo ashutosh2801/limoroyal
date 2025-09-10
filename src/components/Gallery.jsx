@@ -22,7 +22,7 @@ const Gallery = () => {
             <div data-aos="fade-up">
                 <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5 font-medium'>Ride Fast, Ride First-Class</h2>
                 <p className='text-base leading-relaxed webFontColor mb-5'>
-                    Our commitment to excellence sets us apart from the competition: every vehicle in our fleet is brand new and never more than two years old.Our fleet include BMW XM and BMW M340i. This dedication ensures that our clients enjoy the latest advancements in luxury and technology with every ride. From state-of-the-art entertainment systems to plush, comfortable interiors, we prioritize your experience, providing you with a level of service and sophistication that redefines travel. Choose Limo Royale and elevate your journey with unmatched style and reliability.
+                    At Limo Royale, we set the standard for luxury travel. Every vehicle in our fleet is brand new and never more than two years old—including models like the BMW XM and BMW M340i. This means you’ll always experience the latest in comfort, technology, and style. From advanced entertainment systems to plush interiors, every detail is designed with your enjoyment in mind. When you choose Limo Royale, you’re not just booking a ride—you’re choosing sophistication, reliability, and a journey that feels first-class from start to finish.
                 </p>
             </div>
 
