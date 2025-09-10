@@ -285,7 +285,7 @@ const Home = () => {
             </div>
             <div className='mb-15' data-aos="fade-up">
               <h2 className='text-white text-2xl lg:text-4xl leading-snug my-3 font-medium'>The Limo Royale Experience</h2>
-              <p className='text-base leading-relaxed webFontColor'>With <b>Limo Royale</b>, you’re not just choosing a ride—you’re choosing a premium service that caters to your every need. Whether you require corporate transportation, airport transfers, event charters, or personalized tours, our team is dedicated to providing an experience that is unmatched. From our <b>luxury fleet</b> to our <b>bespoke service</b>, we make it our mission to ensure every client enjoys an unforgettable journey.</p>
+              <p className='text-base leading-relaxed webFontColor'>We, at Limo Royale, provide our clients premium service for any kind of event they want a ride for. Be it corporate travel, airport transfer, a wedding, or any journey, we are there for you to provide the best service. Our luxury fleet is built to ensure you have a comfortable and safe journey to your destination. </p>
             </div>            
           </div>
         </div>
