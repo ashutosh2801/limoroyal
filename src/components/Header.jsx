@@ -28,13 +28,13 @@ const Header = () => {
                                 <a href='/'><img src={logo} className='w-full lg:w-50' alt='Luxury Limo Service for Memorable Rides - Limo Royale' /></a>
                             </div>
                             <div className='w-3/4'>
-                                <div className='hidden lg:flex justify-end space-x-3'>
+                                <div className='hidden xl:flex justify-end space-x-3'>
                                     <a href="tel:4167255466;" className='text-white flex items-center'> <PhoneIcon className="h-4 w-4 text-white mr-2" /> 416-725-LIMO (416-725-5466)</a>
                                     <a href="tel:18888705466;" className='text-white flex items-center'> <PhoneIcon className="h-4 w-4 text-white mr-2" /> Toll-free: 1 (888) 870-LIMO (5466)</a>
                                 </div>
                             </div>
                             <div>
-                                <div className='lg:hidden relative z-70'>
+                                <div className='xl:hidden relative z-70'>
                                     <button onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}>
                                         {isMobileNavOpen ? (
                                         <XMarkIcon className='h-8 w-8 text-white' />
@@ -49,20 +49,20 @@ const Header = () => {
                 </div>
                 {/* mobile main menu */}
                 <div>
-                    <div className='relative block lg:hidden'>
-                        <div className={`fixed lg:relative top-0 left-0 h-full w-75 lg:w-full bg-white lg:bg-inherit transform transition-transform duration-300 z-60 ${isMobileNavOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}>
-                            <div className='flex flex-col lg:items-center lg:flex-row space-y-2 lg:space-y-0 lg:space-x-8 text-left lg:text-center text-white uppercase py-10 lg:py-0'>
+                    <div className='relative block xl:hidden'>
+                        <div className={`fixed xl:relative top-0 left-0 h-full w-75 xl:w-full bg-white xl:bg-inherit transform transition-transform duration-300 z-60 ${isMobileNavOpen ? 'translate-x-0' : '-translate-x-full xl:translate-x-0'}`}>
+                            <div className='flex flex-col xl:items-center xl:flex-row space-y-2 xl:space-y-0 xl:space-x-8 text-left xl:text-center text-white uppercase py-10 xl:py-0'>
                                 <a href='/' className='link border-b border-yellow-200 hover:border-b active'>Home</a>
                                 <div className='relative group'>
                                     <div
                                     onClick={() => {
-                                        if (window.innerWidth < 1024) toggleServicesDropdown();
+                                        if (window.innerWidth < 1100) toggleServicesDropdown();
                                     }}
                                     className={`cursor-pointer flex items-center link border-b ${isServicesDropdownOpen ? '' : 'border-transparent'} `}>
                                         Services <ChevronDownIcon className='h-4 w-4 ml-2 transition-transform duration-200' />
                                     </div>
                                     <div className={`absolute left-0 w-75 bg-white text-left text-black rounded shadow-lg z-50 transition-all duration-200 uppercase
-                                    ${isServicesDropdownOpen || window.innerWidth >= 1024 ? 'opacity-100 visible' : 'opacity-0 invisible'} lg:group-hover:opacity-100 lg:group-hover:visible`}>
+                                    ${isServicesDropdownOpen || window.innerWidth >= 1100 ? 'opacity-100 visible' : 'opacity-0 invisible'} xl:group-hover:opacity-100 xl:group-hover:visible`}>
                                         <a href='/corporate-limo-service' className='block px-6 py-3 link-service'>Corporate Limo Service</a>
                                         <a href='/executive-car-hire' className='block px-6 py-3 link-service'>Executive Car Hire</a>
                                         <a href='/casino-limo-service' className='block px-6 py-3 link-service'>Casino Limo Service</a>
@@ -94,9 +94,9 @@ const Header = () => {
                         <div className='flex items-center py-4'>
                             <div className='w-[90%]'>
                                 {/* main menu */}
-                                <div className='relative hidden lg:block'>
-                                    <div className={`fixed lg:relative top-0 left-0 h-full w-75 lg:w-full bg-white lg:bg-inherit transform transition-transform duration-300 z-30 ${isMobileNavOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}>
-                                        <div className='flex flex-col lg:items-center md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-left lg:text-center text-white uppercase py-10 lg:py-0'>
+                                <div className='relative hidden xl:block'>
+                                    <div className={`fixed xl:relative top-0 left-0 h-full w-75 xl:w-full bg-white xl:bg-inherit transform transition-transform duration-300 z-30 ${isMobileNavOpen ? 'translate-x-0' : '-translate-x-full xl:translate-x-0'}`}>
+                                        <div className='flex flex-col xl:items-center md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-left xl:text-center text-white uppercase py-10 xl:py-0'>
                                             <a href='/' className={`link border-b ${isActive("/") ? "active" : "border-transparent"} hover:border-yellow-200`}>Home</a>
                                             <div className='relative group'>
                                                 <div className='cursor-pointer flex items-center link border-b border-transparent hover:border-b hover:border-yellow-200 uppercase'>
@@ -148,7 +148,7 @@ const Header = () => {
                                 </div>
                             </div>
                             <div className='w-[10%]'>
-                                <div className='hidden lg:flex justify-end'>
+                                <div className='hidden xl:flex justify-end'>
                                     {/* desktop sidebar Menu */}
                                     <button
                                     className='text-white cursor-pointer'

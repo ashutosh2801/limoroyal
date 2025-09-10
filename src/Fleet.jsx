@@ -57,7 +57,7 @@ const Fleet = () => {
             <div className='container mx-auto px-2'>
                 <div className='mb-20'>
                     <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>SUV</h2>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5'>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
                             <img src={suv1} className='w-full h-45 mb-5 mt-5 object-contain' />
                             <h3 className='text-white text-2xl inline-block my-5'>Cadilac Escalade ESV</h3>
@@ -134,7 +134,7 @@ const Fleet = () => {
                 </div>
                 <div className='mb-20'>
                     <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>SEDAN</h2>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5'>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
                             <img src={sedan1} className='w-full h-45 mb-5 mt-5 object-contain' />
                             <h3 className='text-white text-2xl inline-block my-5'>Mercedes-Benz S-Class LWB</h3>
@@ -199,7 +199,7 @@ const Fleet = () => {
                 </div>
                 <div className='mb-20'>
                     <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Luxury Coaches</h2>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5'>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
                             <img src={coaches1} className='w-full h-45 mb-5 mt-5 object-contain' />
                             <h3 className='text-white text-2xl inline-block my-5'>Prevost H3</h3>

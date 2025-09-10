@@ -32,7 +32,7 @@ const LuxuryLimousine = () => {
                     <h2 className='text-white text-2xl lg:text-4xl mb-5 lg:mb-0 font-medium'>Luxury Limousine Services</h2>
                 </div>
                 <div>
-                    <p className='webFontColor text-base leading-relaxed lg:pr-100'>Experience elegance and sophistication with our premium luxury limousine services. Whether you’re attending a wedding, corporate event, or special occasion, our fleet of high-end limousines ensures a stylish and comfortable ride. We take pride in delivering exceptional customer service, with professional chauffeurs dedicated to making your journey memorable. Offering a range of modern amenities and attention to detail, our services guarantee both luxury and convenience. Trust us to elevate your travel experience to the next level of comfort and class.</p>
+                    <p className='webFontColor text-base leading-relaxed xl:pr-100'>Experience elegance and sophistication with our premium luxury limousine services. Whether you’re attending a wedding, corporate event, or special occasion, our fleet of high-end limousines ensures a stylish and comfortable ride. We take pride in delivering exceptional customer service, with professional chauffeurs dedicated to making your journey memorable. Offering a range of modern amenities and attention to detail, our services guarantee both luxury and convenience. Trust us to elevate your travel experience to the next level of comfort and class.</p>
                 </div>
             </div>
         </div>

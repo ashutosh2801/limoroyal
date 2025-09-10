@@ -37,7 +37,7 @@ const About = () => {
         <div className='container mx-auto px-2' data-aos="fade-up">
           <div className='pt-20 lg:pt-10 pb-5'>
             <small className='text-sm webColor uppercase'>Finest Transport</small>
-            <h2 className='text-white text-2xl lg:text-4xl mb-5 lg:mb-0 pr-0 lg:pr-200 leading-snug font-medium'>Experience True Luxury with Over 20 Years of Global Expertise</h2>
+            <h2 className='text-white text-2xl lg:text-4xl mb-5 lg:mb-0 pr-0 xl:pr-200 leading-snug font-medium'>Experience True Luxury with Over 20 Years of Global Expertise</h2>
           </div>
           <div>
             <p className='webFontColor text-base leading-relaxed'>At Limo Royale, we are more than just a transportation company—we are curators of unforgettable, luxurious experiences. With over 20 years of expertise spanning multiple countries, including our deep involvement in the hotel and hospitality industry, we understand better than anyone how to deliver exceptional service. Our goal is not just to offer limo rides, but to provide a royal experience that sets a new standard in luxury transportation.</p>
@@ -108,7 +108,7 @@ const About = () => {
         </div>
       </div>
       <div>
-        <div className='bg-[#0a0a0a] py-15 pr-5 lg:pr-62 pl-5 lg:pl-0'>
+        <div className='bg-[#0a0a0a] py-15 pr-5 xl:pr-62 pl-5 lg:pl-0'>
           <div className='flex flex-col lg:flex-row lg:space-x-12 space-y-10 lg:space-y-0 items-center'>
             <div className='w-full lg:w-3/5' data-aos="fade-up">
                 <img src={AboutBanner2} className='w-full h-full' />
@@ -125,7 +125,7 @@ const About = () => {
         </div>
       </div>
       <div>
-        <div className='py-10 lg:py-17 pl-8 lg:pl-62 pr-8 lg:pr-0'>
+        <div className='py-10 lg:py-17 pl-8 xl:pl-62 pr-8 lg:pr-0'>
           <div className='flex flex-col lg:flex-row lg:space-x-10 items-center' data-aos="fade-up">
             <div className='w-full lg:w-2/5'>
               <small className='webColor uppercase'>Premium drivers</small>
@@ -147,7 +147,7 @@ const About = () => {
           <div className='container mx-auto px-2'>
             <small className='webColor uppercase'>finest transport</small>
             <h2 className='text-white text-2xl lg:text-3xl leading-snug my-5 font-medium'>Why Choose a Royale Chauffeur?</h2>
-            <p className='text-base leading-relaxed webFontColor pr-0 lg:pr-150'>When you travel with Limo Royale, you are in the capable hands of highly experienced professionals who go above and beyond to ensure your comfort, safety, and satisfaction</p>
+            <p className='text-base leading-relaxed webFontColor pr-0 xl:pr-150'>When you travel with Limo Royale, you are in the capable hands of highly experienced professionals who go above and beyond to ensure your comfort, safety, and satisfaction</p>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 md:space-x-4 space-y-5 lg:space-y-0 mt-10'>
               <div className='bg-[#0a0a0a] p-6' data-aos="fade-up">
                 <h4 className='text-white text-xl lg:text-2xl mb-5'>Experience & Expertise</h4>
@@ -170,7 +170,7 @@ const About = () => {
         </div>
       </div>
       <div>
-        <div className='bg-[#0a0a0a] py-15 pr-5 lg:pr-62 pl-5 lg:pl-0'>
+        <div className='bg-[#0a0a0a] py-15 pr-5 xl:pr-62 pl-5 lg:pl-0'>
           <div className='flex flex-col lg:flex-row lg:space-x-12 space-y-10 lg:space-y-0 items-center'>
             <div className='w-full lg:w-3/5' data-aos="fade-up">
                 <img src={AboutBanner3} className='w-full h-full' />

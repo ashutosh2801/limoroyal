@@ -32,7 +32,7 @@ const BusCharter = () => {
                 <div className='border-b webBorderColor pt-20 lg:pt-0 pb-10 mt-10 mb-13' data-aos="fade-up">
                     <small className='text-sm webColor uppercase'>Bus Charter</small>
                     <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Your Corporate Travel Solution, Redefined</h2>
-                    <p className='text-base leading-relaxed webFontColor lg:pr-100'>
+                    <p className='text-base leading-relaxed webFontColor xl:pr-100'>
                     At Limo Royale, we understand the importance of seamless, professional travel for your business. Whether it’s for conferences, team-building retreats, business meetings, or corporate outings, our corporate charter service offers unmatched comfort, style, and efficiency. From initial booking to final drop-off, we ensure your team experiences a flawless journey, so you can focus on what matters most—your business.
                     </p>
                 </div>
