@@ -22,9 +22,10 @@ const Fleet = () => {
   return (
     <div>
         <Helmet>
-            <title>Fleet of Luxury Airport Limos | LimoRoyal</title>
-            <meta name="description" content="View our fleet of luxury airport limos—diverse vehicles for every occasion, from elegant arrivals to top-tier chauffeur service." />
-            <meta name="keywords" content="airport limo, airport chauffeur service" />
+            <title>Limo Royale Fleet | Premium Luxury Vehicles for Every Occasion</title>
+            <meta name="description" content="Travel in style with Limo Royale’s luxury fleet of sedans, SUVs, and limousines. Book your premium, comfortable, and unforgettable journey today."/>
+            <meta name="keywords" content="Fleet of Luxury Airport Limos, Premium Luxury Vehicles for Every Occasion"/>
+            <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/fleet" />
         </Helmet>
         <div>
@@ -46,7 +47,7 @@ const Fleet = () => {
         <div>
             <div className='container mx-auto px-2'>
                 <div className='pb-10 mt-10' data-aos="fade-up">
-                    <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Our Fleet</h2>
+                    <h1 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Our Fleet</h1>
                     <p className='text-base leading-relaxed webFontColor'>
                     At Limo Royale, we understand the importance of seamless, professional travel for your business. Whether it’s for conferences, team-building retreats, business meetings, or corporate outings, our corporate charter service offers unmatched comfort, style, and efficiency. From initial booking to final drop-off, we ensure your team experiences a flawless journey, so you can focus on what matters most—your business.
                     </p>
@@ -59,7 +60,7 @@ const Fleet = () => {
                     <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>SUV</h2>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5'>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={suv1} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={suv1} className='w-full h-45 mb-5 mt-5 object-contain' alt='Cadilac Escalade ESV' />
                             <h3 className='text-white text-2xl inline-block my-5'>Cadilac Escalade ESV</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -77,7 +78,7 @@ const Fleet = () => {
                             <a href='/online-reservations' className='webColor inline-block text-sm px-10 py-5 uppercase'>Book Now</a>
                         </div>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={suv2} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={suv2} className='w-full h-45 mb-5 mt-5 object-contain' alt='GMC Yukon XL' />
                             <h3 className='text-white text-2xl inline-block my-5'>GMC Yukon XL</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -95,7 +96,7 @@ const Fleet = () => {
                             <a href='/online-reservations' className='webColor inline-block text-sm px-10 py-5 uppercase'>Book Now</a>
                         </div>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={suv3} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={suv3} className='w-full h-45 mb-5 mt-5 object-contain' alt='Suburban High Country' />
                             <h3 className='text-white text-2xl inline-block my-5'>Suburban High Country</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -113,7 +114,7 @@ const Fleet = () => {
                             <a href='/online-reservations' className='webColor inline-block text-sm px-10 py-5 uppercase'>Book Now</a>
                         </div>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={suv4} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={suv4} className='w-full h-45 mb-5 mt-5 object-contain' alt='Lincoln Navigator Reserve L' />
                             <h3 className='text-white text-2xl inline-block my-5'>Lincoln Navigator Reserve L</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -136,7 +137,7 @@ const Fleet = () => {
                     <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>SEDAN</h2>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5'>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={sedan1} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={sedan1} className='w-full h-45 mb-5 mt-5 object-contain' alt='Mercedes-Benz S-Class LWB' />
                             <h3 className='text-white text-2xl inline-block my-5'>Mercedes-Benz S-Class LWB</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -151,7 +152,7 @@ const Fleet = () => {
                             <a href='/online-reservations' className='webColor inline-block text-sm px-10 py-5 uppercase'>Book Now</a>
                         </div>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={sedan2} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={sedan2} className='w-full h-45 mb-5 mt-5 object-contain' alt='Audi S8-L' />
                             <h3 className='text-white text-2xl inline-block my-5'>Audi S8-L</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -166,7 +167,7 @@ const Fleet = () => {
                             <a href='/online-reservations' className='webColor inline-block text-sm px-10 py-5 uppercase'>Book Now</a>
                         </div>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={sedan3} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={sedan3} className='w-full h-45 mb-5 mt-5 object-contain' alt='BMW 7 Series' />
                             <h3 className='text-white text-2xl inline-block my-5'>BMW 7 Series</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -181,7 +182,7 @@ const Fleet = () => {
                             <a href='/online-reservations' className='webColor inline-block text-sm px-10 py-5 uppercase'>Book Now</a>
                         </div>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={sedan4} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={sedan4} className='w-full h-45 mb-5 mt-5 object-contain' alt='TESLA Model S' />
                             <h3 className='text-white text-2xl inline-block my-5'>TESLA Model S</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -201,7 +202,7 @@ const Fleet = () => {
                     <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Luxury Coaches</h2>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5'>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={coaches1} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={coaches1} className='w-full h-45 mb-5 mt-5 object-contain' alt='Prevost H3' />
                             <h3 className='text-white text-2xl inline-block my-5'>Prevost H3</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -219,7 +220,7 @@ const Fleet = () => {
                             <a href='/online-reservations' className='webColor inline-block text-sm px-10 py-5 uppercase'>Book Now</a>
                         </div>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={coaches2} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={coaches2} className='w-full h-45 mb-5 mt-5 object-contain' alt='TEMSA' />
                             <h3 className='text-white text-2xl inline-block my-5'>TEMSA</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -237,7 +238,7 @@ const Fleet = () => {
                             <a href='/online-reservations' className='webColor inline-block text-sm px-10 py-5 uppercase'>Book Now</a>
                         </div>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={coaches3} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={coaches3} className='w-full h-45 mb-5 mt-5 object-contain' alt='Mini Bus' />
                             <h3 className='text-white text-2xl inline-block my-5'>Mini Bus</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -255,7 +256,7 @@ const Fleet = () => {
                             <a href='/online-reservations' className='webColor inline-block text-sm px-10 py-5 uppercase'>Book Now</a>
                         </div>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={coaches4} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={coaches4} className='w-full h-45 mb-5 mt-5 object-contain' alt='Sprinter VAN' />
                             <h3 className='text-white text-2xl inline-block my-5'>Sprinter VAN</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -278,7 +279,7 @@ const Fleet = () => {
                     <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Stretch Limousines</h2>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={Stretch1} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={Stretch1} className='w-full h-45 mb-5 mt-5 object-contain' alt='Royale Stretch Limousines' />
                             <h3 className='text-white text-2xl inline-block my-5'>Royale Stretch Limousines</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -296,7 +297,7 @@ const Fleet = () => {
                             <a href='/online-reservations' className='webColor inline-block text-sm px-10 py-5 uppercase'>Book Now</a>
                         </div>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={Stretch2} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={Stretch2} className='w-full h-45 mb-5 mt-5 object-contain' alt='Royale Super Stretch Limo' />
                             <h3 className='text-white text-2xl inline-block my-5'>Royale Super Stretch Limo</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -314,7 +315,7 @@ const Fleet = () => {
                             <a href='/online-reservations' className='webColor inline-block text-sm px-10 py-5 uppercase'>Book Now</a>
                         </div>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={Stretch3} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={Stretch3} className='w-full h-45 mb-5 mt-5 object-contain' alt='Royale Ultra Stretch Limos' />
                             <h3 className='text-white text-2xl inline-block my-5'>Royale Ultra Stretch Limos</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>
@@ -337,7 +338,7 @@ const Fleet = () => {
                     <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Royale Grand Party Coach</h2>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                         <div className='bg-[#0a0a0a] p-5 text-center' data-aos="fade-up">
-                            <img src={Stretch4} className='w-full h-45 mb-5 mt-5 object-contain' />
+                            <img src={Stretch4} className='w-full h-45 mb-5 mt-5 object-contain' alt='Royale Stretch Limousines' />
                             <h3 className='text-white text-2xl inline-block my-5'>Royale Stretch Limousines</h3>
                             <ul className='flex justify-center gap-5'>
                                 <li className='flex items-center gap-2'>

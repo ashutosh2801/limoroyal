@@ -12,7 +12,7 @@ const ServiceSidePanel = () => {
     <div className='w-full md:w-2/5 lg:w-1/3'>
         <div className='p-5 lg:p-10 bg-[#0a0a0a] sticky top-10 mt-10 md:mt-0'>
             <div className='border-b webBorderColor pb-8' data-aos="fade-up">
-                <h1 className='text-white text-xl lg:text-2xl mb-8'>Our Services</h1>
+                <b className='text-white text-xl lg:text-2xl mb-8 font-normal'>Our Services</b>
                 <ul className='my-5 text-gray-300 space-y-5'>
                     <li><a href='/wedding-cars' className={`services-link ${isActive("/wedding-cars") ? "side-active" : "border-transparent"}`}>Wedding Cars</a></li>
                     <li><a href='/luxury-jet-charter' className={`services-link ${isActive("/luxury-jet-charter") ? "side-active" : "border-transparent"}`}>Luxury Jet Charter</a></li>
@@ -27,13 +27,13 @@ const ServiceSidePanel = () => {
                 </ul>   
             </div>
             <div className='border-b webBorderColor pb-8' data-aos="fade-up">
-                <h1 className='text-white text-xl lg:text-2xl mt-8 mb-8'>Call us today & avail our services</h1>
+                <b className='text-white text-xl lg:text-2xl mt-8 mb-8 font-normal block'>Call us today & avail our services</b>
                 <a href='tel:4167255466' className='webFontColor mt-5 block text-md md:text-sm lg:text-xl font-semibold'>
                     <div className='bg-white rounded-full px-3 lg:px-4 py-3 lg:py-4 mr-2 inline-block'><FontAwesomeIcon icon={faHeadset} className="webColor text-xl lg:text-3xl" /></div> <span className='webColor'>Call Now</span> 416-725-5466
                 </a>
             </div>
             <div data-aos="fade-up">
-                <h1 className='text-white text-xl lg:text-2xl mt-8 mb-8'>Book Today</h1>
+                <b className='text-white text-xl lg:text-2xl mt-8 mb-8 font-normal block'>Book Today</b>
                 <p className='text-gray-300'>Book Car Rental Today</p>
                 <a href='/online-reservations' className='inline-block book-now-slide text-sm px-10 py-4 mt-5 uppercase'>Book Now</a>
             </div>

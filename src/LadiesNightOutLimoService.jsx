@@ -9,10 +9,10 @@ const LadiesNightOutLimoService = () => {
   return (
     <div>
         <Helmet>
-            <title>Ladies Night Out Limo & Airport Limo | LimoRoyal</title>
-            <meta name="description" content="Glamorous ladies night out limo service plus optional airport limo service—fun, style, and convenience all in one." />
-            <meta name="keywords" content="airport limo, airport limo service" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Ladies Night Out Limo Service in Toronto | Limo Royale</title>
+            <meta name="description" content="Celebrate your night out in style with Limo Royale’s luxury limo service in Toronto. Perfect for groups—book your fun and safe ride today!" />
+            <meta name="keywords" content="Ladies Night Out Limo Service in Toronto" />
+            <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/ladies-night-out-limo-service" />
         </Helmet>
         <div>
@@ -37,7 +37,7 @@ const LadiesNightOutLimoService = () => {
                     <ServiceSidePanel />
                     <div className='w-full md:w-3/5 lg:w-2/3'>
                         <div data-aos="fade-up">
-                            <img src={LadiesNightBanner} className='w-full h-full' />
+                            <img src={LadiesNightBanner} className='w-full h-full' alt='Limo Royale’s Ladies Night Out Limo Service' />
                         </div>
                         <div className='border-b webBorderColor pb-10 mb-10' data-aos="fade-up">
                             <h1 className='text-white text-2xl lg:text-4xl mt-10 mb-5 lg:mb-10'>Experience a Night of Fun, Glamour, and Luxury</h1>

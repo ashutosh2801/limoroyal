@@ -12,10 +12,11 @@ const About = () => {
   return (
     <div>
       <Helmet>
-        <title>About LimoRoyal | Airport Chauffeur Service Experts</title>
-        <meta name="description" content="Discover LimoRoyal—specialists in airport chauffeur service and luxury transfers, committed to excellence and reliability." />
-        <meta name="keywords" content="airport chauffeur service, airport transfer" />
+        <title>About Limo Royale | Luxury Chauffeur & Limo Services</title>
+        <meta name="description" content="Experience over 20 years of luxury with Limo Royale. Travel with expert chauffeurs, a pristine fleet, and royal service. Book your ride today!" />
+        <meta name="keywords" content="Best Airport Limo Service Toronto, Airport Transportation Toronto, Cheap Airport Limo Toronto" />
         <link rel="canonical" href="https://limoroyal.com/about" />
+        <meta name="robots" content="index, follow"/>
       </Helmet>
       <div>
         <div className='relative'>
@@ -37,7 +38,7 @@ const About = () => {
         <div className='container mx-auto px-2' data-aos="fade-up">
           <div className='pt-20 lg:pt-10 pb-5'>
             <small className='text-sm webColor uppercase'>Finest Transport</small>
-            <h2 className='text-white text-2xl lg:text-4xl mb-5 lg:mb-0 pr-0 xl:pr-200 leading-snug font-medium'>Experience True Luxury with Over 20 Years of Global Expertise</h2>
+            <h1 className='text-white text-2xl lg:text-4xl mb-5 lg:mb-0 pr-0 xl:pr-200 leading-snug font-medium'>Experience True Luxury with Over 20 Years of Global Expertise</h1>
           </div>
           <div>
             <p className='webFontColor text-base leading-relaxed'>At Limo Royale, we are more than just a transportation company—we are curators of unforgettable, luxurious experiences. With over 20 years of expertise spanning multiple countries, including our deep involvement in the hotel and hospitality industry, we understand better than anyone how to deliver exceptional service. Our goal is not just to offer limo rides, but to provide a royal experience that sets a new standard in luxury transportation.</p>
@@ -68,7 +69,7 @@ const About = () => {
         </div>
       </div>
       <div>
-        <img src={AboutBanner} className='w-full h-[300px] lg:h-[550px] object-cover object-bottom' />
+        <img src={AboutBanner} className='w-full h-[300px] lg:h-[550px] object-cover object-bottom' alt='Experience the Luxury Transportation' />
       </div>
       <div>
         <div className='container mx-auto px-2'>
@@ -111,7 +112,7 @@ const About = () => {
         <div className='bg-[#0a0a0a] py-15 pr-5 xl:pr-62 pl-5 lg:pl-0'>
           <div className='flex flex-col lg:flex-row lg:space-x-12 space-y-10 lg:space-y-0 items-center'>
             <div className='w-full lg:w-3/5' data-aos="fade-up">
-                <img src={AboutBanner2} className='w-full h-full' />
+                <img src={AboutBanner2} className='w-full h-full' alt='vehicle cleanliness and quality checks' />
             </div>
             <div className='w-full lg:w-2/5' data-aos="fade-up">
               <small className='webColor uppercase'>Goal</small>
@@ -135,8 +136,8 @@ const About = () => {
             </div>
             <div className='w-full lg:w-3/5'>
                 <div className='grid grid-cols-2 space-x-5 mt-10 lg:mt-0'>
-                  <div><img src={GlobalImg1} className='w-full h-full' /></div>
-                  <div><img src={GlobalImg2} className='w-full h-full' /></div>
+                  <div><img src={GlobalImg1} className='w-full h-full' alt='Global Experience with Limo Service' /></div>
+                  <div><img src={GlobalImg2} className='w-full h-full' alt='Premium Limo Service Toronto' /></div>
                 </div>
             </div>
           </div>
@@ -173,7 +174,7 @@ const About = () => {
         <div className='bg-[#0a0a0a] py-15 pr-5 xl:pr-62 pl-5 lg:pl-0'>
           <div className='flex flex-col lg:flex-row lg:space-x-12 space-y-10 lg:space-y-0 items-center'>
             <div className='w-full lg:w-3/5' data-aos="fade-up">
-                <img src={AboutBanner3} className='w-full h-full' />
+                <img src={AboutBanner3} className='w-full h-full' alt='Royal Experience in Limo Royale' />
             </div>
             <div className='w-full lg:w-2/5' data-aos="fade-up">
               <small className='webColor uppercase'>Goal</small>

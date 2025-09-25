@@ -5,10 +5,11 @@ const LuxuryLimousine = () => {
   return (
     <div>
         <Helmet>
-            <title>Luxury Limousine & Airport Limo | LimoRoyal</title>
-            <meta name="description" content="Premium luxury limousine hire and seamless airport limo options—ride in comfort and elegance." />
-            <meta name="keywords" content="airport limo, airport limo service" />
+            <title>Luxury Limousine Services for Every Occasion | Limo Royale</title>
+            <meta name="description" content="Book a premium limousine with Limo Royale. Experience comfort and elegance for any occasion. Reserve your ride today!" />
+            <meta name="keywords" content="Luxury Limousine Services for Every Occasion" />
             <link rel="canonical" href="https://limoroyal.com/luxury-limousine" />
+            <meta name="robots" content="index, follow"/>
         </Helmet>
         <div>
             <div className='relative'>
@@ -29,7 +30,7 @@ const LuxuryLimousine = () => {
         <div>
             <div className='container mx-auto px-2'>
                 <div className='pt-20 lg:pt-10 pb-5'>
-                    <h2 className='text-white text-2xl lg:text-4xl mb-5 lg:mb-0 font-medium'>Luxury Limousine Services</h2>
+                    <h1 className='text-white text-2xl lg:text-4xl mb-5 lg:mb-0 font-medium'>Luxury Limousine Services</h1>
                 </div>
                 <div>
                     <p className='webFontColor text-base leading-relaxed xl:pr-100'>Experience elegance and sophistication with our premium luxury limousine services. Whether you’re attending a wedding, corporate event, or special occasion, our fleet of high-end limousines ensures a stylish and comfortable ride. We take pride in delivering exceptional customer service, with professional chauffeurs dedicated to making your journey memorable. Offering a range of modern amenities and attention to detail, our services guarantee both luxury and convenience. Trust us to elevate your travel experience to the next level of comfort and class.</p>

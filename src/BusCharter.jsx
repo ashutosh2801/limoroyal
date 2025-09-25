@@ -6,10 +6,11 @@ const BusCharter = () => {
   return (
     <div>
         <Helmet>
-            <title>Bus Charter & Airport Transfer Limo Options | LimoRoyal</title>
-            <meta name="description" content="Group bus charter services with optional airport limo transfers—travel together with flexibility and class." />
-            <meta name="keywords" content="airport transfer, airport limo service" />
+            <title>Luxury Bus Charter & Group Travel | Limo Royale</title>
+            <meta name="description" content="Travel in style with Limo Royale’s luxury bus charters. Corporate, private, or sports groups enjoy spacious fleet, expert chauffeurs, and seamless rides." />
+            <meta name="keywords" content="Bus Charter Service Toronto, Luxury Bus Charter & Group Travel" />
             <link rel="canonical" href="https://limoroyal.com/bus-charter" />
+            <meta name="robots" content="index, follow"/>
         </Helmet>
         <div>
             <div className='relative'>
@@ -31,7 +32,7 @@ const BusCharter = () => {
             <div className='container mx-auto px-2'>
                 <div className='border-b webBorderColor pt-20 lg:pt-0 pb-10 mt-10 mb-13' data-aos="fade-up">
                     <small className='text-sm webColor uppercase'>Bus Charter</small>
-                    <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Your Corporate Travel Solution, Redefined</h2>
+                    <h1 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Your Corporate Travel Solution, Redefined</h1>
                     <p className='text-base leading-relaxed webFontColor xl:pr-100'>
                     At Limo Royale, we understand the importance of seamless, professional travel for your business. Whether it’s for conferences, team-building retreats, business meetings, or corporate outings, our corporate charter service offers unmatched comfort, style, and efficiency. From initial booking to final drop-off, we ensure your team experiences a flawless journey, so you can focus on what matters most—your business.
                     </p>
@@ -63,7 +64,7 @@ const BusCharter = () => {
             <div className='bg-[#0a0a0a]' data-aos="fade-up">
                 <div className='grid grid-cols-1 lg:grid-cols-2 mt-20 lg:mt-0'>
                     <div>
-                        <img src={EventBanner} />
+                        <img src={EventBanner} alt='Corporate Travel Experience with Limo Royale' />
                     </div>
                     <div className='py-10 md:py-15 px-5 md:px-15'>
                         <small className='text-sm webColor uppercase'>We are serving</small>

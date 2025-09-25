@@ -76,7 +76,7 @@ const Testimonials = () => {
                                             <img
                                                 src={item.thumbnail}
                                                 className="w-full h-64 md:h-90 object-cover rounded-lg"
-                                                alt="Thumbnail"
+                                                alt="Experience the Journey with Limo Royale"
                                             />
                                             <div className="absolute inset-0 flex items-center justify-center">
                                                 <div className='rounded-full border border-white p-5'>

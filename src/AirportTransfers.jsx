@@ -9,11 +9,11 @@ const AirportTransfers = () => {
   return (
     <div>
         <Helmet>
-            <title>Airport Transfer & Limo to the Airport | LimoRoyal</title>
-            <meta name="description" content="Convenient airport transfer and limo to the airport services—stress-free arrival and departure with comfort and elegance." />
-            <meta name="keywords" content="limo to the airport, airport transfer" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Airport Limousine & Transportation Service in Toronto | Limo Royale</title>
+            <meta name="description" content="Book your wedding limo with Limo Royale. Enjoy luxury transportation for your special day in Toronto. Reserve your elegant ride today!" />
+            <meta name="keywords" content="Airport Limo Toronto, Airport Limo Service Toronto, Airport Limousine Service Toronto, Limo From Pearson Airport, Pearson Airport Limo Service, Toronto Airport Limousine, Airport Transportation Toronto, Pearson Airport Car Service, Limo to Pearson Airport, Cheap Airport Limo Toronto, Best Airport Limo Toronto, Best Airport Limo Service Toronto" />
             <link rel="canonical" href="https://limoroyal.com/airport-transfers" />
+            <meta name="robots" content="index, follow"/>
         </Helmet>
         <div>
             <div className='relative'>
@@ -37,7 +37,7 @@ const AirportTransfers = () => {
                     <ServiceSidePanel />
                     <div className='w-full md:w-3/5 lg:w-2/3'>
                         <div data-aos="fade-up">
-                            <img src={AirportBanner} className='w-full h-full' />
+                            <img src={AirportBanner} className='w-full h-full' alt='Airport Transfers Toronto' />
                         </div>
                         <div className='border-b webBorderColor pb-10 mb-10' data-aos="fade-up">
                             <h1 className='text-white text-2xl lg:text-4xl mt-10 mb-5 lg:mb-10'>Seamless and Luxurious Airport Transfers</h1>

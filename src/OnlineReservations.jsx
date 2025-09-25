@@ -5,9 +5,10 @@ const OnlineReservations = () => {
   return (
     <div>
         <Helmet>
-            <title>Online Reservations | Airport Limo Service Booking | LimoRoyal</title>
-            <meta name="description" content="Book your airport transfer or limo service online—easy reservations for limo to the airport or airport chauffeur service." />
-            <meta name="keywords" content="limo to the airport, airport limo service" />
+            <title>Book Your Ride Online | Limo Royale Luxury Chauffeur Service</title>
+            <meta name="description" content="Reserve your luxury limo or private tour with Limo Royale. Easy online booking for airport transfers, city tours, and more."/>
+            <meta name="keywords" content="Limo Royale Luxury Chauffeur Service, Cheap Airport Limo"/>
+            <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/online-reservations" />
         </Helmet>
         <div className='relative'>

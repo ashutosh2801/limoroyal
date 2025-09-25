@@ -17,9 +17,10 @@ const Contact = () => {
   return (
     <div>
         <Helmet>
-            <title>Contact LimoRoyal | Airport Limo Service Near Me</title>
-            <meta name="description" content="Get in touch for airport limo service near me, limo airport service, or any transport inquiries—contact LimoRoyal today." />
-            <meta name="keywords" content="airport limo service near me, limo airport service near me" />
+            <title>Contact Limo Royale | Book Your Luxury Chauffeur Service Today</title>
+            <meta name="description" content="Get in touch with Limo Royale to reserve your premium limo or airport chauffeur service. Experience comfort and elegance with our expert chauffeurs."/>
+            <meta name="keywords" content="Book Your Luxury Chauffeur Service Today, Best Airport Limo Service Toronto, Airport Transportation Toronto "/>
+            <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/contact" />
         </Helmet>
         <div>
@@ -42,7 +43,7 @@ const Contact = () => {
             <div className='container mx-auto px-2'>
                 <div className='pt-10 lg:pt-0 pb-10 mt-15' data-aos="fade-up">
                     <small className='text-sm webColor uppercase'>Contact us</small>
-                    <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Ride To Destinations With <br></br> Maximum Comfort</h2>
+                    <h1 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Ride To Destinations With <br></br> Maximum Comfort</h1>
                 </div>
             </div>
         </div>

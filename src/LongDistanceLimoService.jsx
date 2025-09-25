@@ -3,15 +3,17 @@ import ServiceSidePanel from './components/ServiceSidePanel'
 import LongDistanceBanner from '../src/assets/services/long-distance.jpg'
 import CustomerExperiences from './components/CustomerExperiences'
 import ServiceFaq from './components/ServiceFaq'
+import { Helmet } from 'react-helmet'
 
 const LongDistanceLimoService = () => {
   return (
     <div>
         <Helmet>
-            <title>Long Distance Limo & Airport Limo Transfers | LimoRoyal</title>
-            <meta name="description" content="Comfortable long-distance limo service with reliable airport limo transfers—travel smoothly, near or far." />
-            <meta name="keywords" content="airport limo, airport transfer" />
+            <title>Long Distance Limo Service in Toronto | Travel with Comfort</title>
+            <meta name="description" content="Book affordable long-distance limo services Toronto that ensure a smooth and luxurious ride. Comfort, reliability, and style for all your travel needs. Reserve now!" />
+            <meta name="keywords" content="Long-Distance Limo services Toronto" />
             <link rel="canonical" href="https://limoroyal.com/long-distance-limo-service" />
+            <meta name="robots" content="index, follow"/>
         </Helmet>
         <div>
             <div className='relative'>
@@ -35,7 +37,7 @@ const LongDistanceLimoService = () => {
                     <ServiceSidePanel />
                     <div className='w-full md:w-3/5 lg:w-2/3'>
                         <div data-aos="fade-up">
-                            <img src={LongDistanceBanner} className='w-full h-full' />
+                            <img src={LongDistanceBanner} className='w-full h-full' alt='Long Distance Limo & Airport Limo Transfers' />
                         </div>
                         <div className='border-b webBorderColor pb-10 mb-10' data-aos="fade-up">
                             <h1 className='text-white text-2xl lg:text-4xl mt-10 mb-5 lg:mb-10'>Luxury and Comfort for Every Mile</h1>

@@ -8,11 +8,11 @@ const CasinoLimoService = () => {
   return (
     <div>
         <Helmet>
-            <title>Casino Limo Service & Airport Chauffeur | LimoRoyal</title>
+            <title>Casino Limo Service Toronto, VIP Casino Transportation – Limo Royale</title>
             <meta name="description" content="Arrive in style—top-tier limo service to airport and casino experiences. Luxury on demand with airport limo service near me convenience." />
             <meta name="keywords" content="limo service to airport near me, airport limo service near me" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="canonical" href="https://limoroyal.com/casino-limo-service" />
+            <meta name="robots" content="index, follow"/>
         </Helmet>
 
         <div>
@@ -37,7 +37,7 @@ const CasinoLimoService = () => {
                     <ServiceSidePanel />
                     <div className='w-full md:w-3/5 lg:w-2/3'>
                         <div data-aos="fade-up">
-                            <img src={CasinoBanner} className='w-full h-full' />
+                            <img src={CasinoBanner} className='w-full h-full' alt='Casino Limo Service Toronto' />
                         </div>
                         <div className='border-b webBorderColor pb-10' data-aos="fade-up">
                             <h1 className='text-white text-2xl lg:text-4xl mt-10 mb-5 lg:mb-10'>Elevate Your Night with VIP Casino Transportation</h1>

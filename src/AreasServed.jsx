@@ -33,8 +33,9 @@ const AreasServed = () => {
     <div>
         <Helmet>
             <title>Areas We Serve for Airport Limo & Transfers | LimoRoyal</title>
-            <meta name="description" content="Explore regions covered by our airport limo and transfer services—local convenience backed by luxury." />
-            <meta name="keywords" content="airport limo service near me, limo airport service near me" />
+            <meta name="description" content="Tailor your perfect journey with Limo Royale. Book luxury custom tours across Niagara, Toronto, Montreal & more with expert chauffeurs today!" />
+            <meta name="keywords" content="Airport Limo Service, Custom Tours & Luxury Travel Experiences" />
+            <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/areas-served" />
         </Helmet>
         <div>
@@ -58,7 +59,7 @@ const AreasServed = () => {
                 <div className='container mx-auto px-2'>
                     <div className='border-b webBorderColor pt-10 lg:pt-0 pb-10 mt-15 mb-13' data-aos="fade-up">
                         <small className='text-sm webColor uppercase'>Craft Your Perfect Journey</small>
-                        <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Customise Your Tour with Limo Royale</h2>
+                        <h1 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Customise Your Tour with Limo Royale</h1>
                         <p className='text-base leading-relaxed webFontColor'>
                             At Limo Royale, we believe travel should reflect your personal style and desires. Our Customise Tour option allows you to tailor every aspect of your experience, from the destinations to the pace of travel, ensuring a journey that is uniquely yours. Whether you seek cultural immersion, natural wonders, or luxury escapes, our custom tours provide the flexibility and exclusivity you deserve. Travel in the utmost comfort with our premium fleet and knowledgeable chauffeurs, who are dedicated to bringing your vision to life.
                         </p>
@@ -87,7 +88,7 @@ const AreasServed = () => {
             <div className='bg-[#0a0a0a]'>
                 <div className='grid grid-cols-1 lg:grid-cols-2' data-aos="fade-up">
                     <div>
-                        <img src={AreasBanner1} className='w-full h-full object-cover' />
+                        <img src={AreasBanner1} className='w-full h-full object-cover' alt='Niagara Wine Tours by Limo Royale' />
                     </div>
                     <div className='p-5 md:p-15 flex flex-col justify-center'>
                         <small className='text-sm webColor uppercase'>Savor the Flavors of Niagara Wine Country</small>
@@ -168,7 +169,7 @@ const AreasServed = () => {
             <div className='bg-black'>
                 <div className='grid grid-cols-1 lg:grid-cols-2' data-aos="fade-up">
                     <div>
-                        <img src={AreasBanner2} className='w-full h-full lg:h-170 object-cover' />
+                        <img src={AreasBanner2} className='w-full h-full lg:h-170 object-cover' alt='Niagara Falls Tours by Limo Royale' />
                     </div>
                     <div className='p-5 md:p-15 flex flex-col justify-center'>
                         <small className='text-sm webColor uppercase'>Unveil the Majestic Power of Niagara Falls</small>
@@ -217,7 +218,7 @@ const AreasServed = () => {
             <div className='bg-[#0a0a0a]'>
                 <div className='grid grid-cols-1 lg:grid-cols-2' data-aos="fade-up">
                     <div>
-                        <img src={AreasBanner3} className='w-full h-full lg:h-170 object-cover' />
+                        <img src={AreasBanner3} className='w-full h-full lg:h-170 object-cover' alt='1000 Islands Tours by Limo Royale' />
                     </div>
                     <div className='p-5 md:p-15 flex flex-col justify-center'>
                         <small className='text-sm webColor uppercase'>Discover the Magic of the 1000 Islands</small>
@@ -266,7 +267,7 @@ const AreasServed = () => {
             <div className='bg-black'>
                 <div className='grid grid-cols-1 lg:grid-cols-2' data-aos="fade-up">
                     <div>
-                        <img src={AreasBanner4} className='w-full h-full lg:h-170 object-cover' />
+                        <img src={AreasBanner4} className='w-full h-full lg:h-170 object-cover' alt='Toronto City Tours by Limo Royale' />
                     </div>
                     <div className='p-5 md:p-15 flex flex-col justify-center'>
                         <small className='text-sm webColor uppercase'>Experience the Heart of Toronto</small>
@@ -315,7 +316,7 @@ const AreasServed = () => {
             <div className='bg-[#0a0a0a]'>
                 <div className='grid grid-cols-1 lg:grid-cols-2' data-aos="fade-up">
                     <div>
-                        <img src={AreasBanner5} className='w-full h-full lg:h-170 object-cover' />
+                        <img src={AreasBanner5} className='w-full h-full lg:h-170 object-cover' alt='Ottawa Tours by Limo Royale' />
                     </div>
                     <div className='p-5 md:p-15 flex flex-col justify-center'>
                         <small className='text-sm webColor uppercase'>Uncover Canada’s Capital in Style</small>
@@ -358,7 +359,7 @@ const AreasServed = () => {
             <div className='bg-black'>
                 <div className='grid grid-cols-1 lg:grid-cols-2' data-aos="fade-up">
                     <div>
-                        <img src={AreasBanner6} className='w-full h-full lg:h-170 object-cover' />
+                        <img src={AreasBanner6} className='w-full h-full lg:h-170 object-cover' alt='Montreal Tours by Limo Royale' />
                     </div>
                     <div className='p-5 md:p-15 flex flex-col justify-center'>
                         <small className='text-sm webColor uppercase'>Immerse Yourself in the Culture and History of Montreal</small>
@@ -407,7 +408,7 @@ const AreasServed = () => {
             <div className='bg-[#0a0a0a]'>
                 <div className='grid grid-cols-1 lg:grid-cols-2' data-aos="fade-up">
                     <div>
-                        <img src={AreasBanner7} className='w-full h-full lg:h-170 object-cover' />
+                        <img src={AreasBanner7} className='w-full h-full lg:h-170 object-cover' alt='Sault Ste. Marie Tours by Limo Royale' />
                     </div>
                     <div className='p-5 md:p-15 flex flex-col justify-center'>
                         <small className='text-sm webColor uppercase'>Discover the Hidden Gems of Sault Ste. Marie in Luxury</small>
@@ -457,7 +458,7 @@ const AreasServed = () => {
             <div className='bg-black'>
                 <div className='grid grid-cols-1 lg:grid-cols-2' data-aos="fade-up">
                     <div>
-                        <img src={AreasBanner8} className='w-full h-full lg:h-170 object-cover' />
+                        <img src={AreasBanner8} className='w-full h-full lg:h-170 object-cover' alt='Blue Mountains Tours by Limo Royale' />
                     </div>
                     <div className='p-5 md:p-15 flex flex-col justify-center'>
                         <small className='text-sm webColor uppercase'>Escape to the Tranquility and Adventure of the Blue Mountains</small>

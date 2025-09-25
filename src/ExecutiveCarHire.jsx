@@ -9,11 +9,11 @@ const ExecutiveCarHire = () => {
   return (
     <div>
         <Helmet>
-            <title>Executive Car Hire & Airport Transfer Experts | LimoRoyal</title>
-            <meta name="description" content="Professional executive car hire with flexible airport pickup and transfer options—luxury and efficiency combined." />
-            <meta name="keywords" content="airport pickup, airport transfer" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Executive Car Hire & Chauffeur Services in Toronto | Limo Royale</title>
+            <meta name="description" content="Book premium executive car hire, luxury sedans, SUVs, and professional chauffeur services in Toronto. Ideal for corporate events, airport transfers & more." />
+            <meta name="keywords" content="Executive Car Hire, Executive Car Hire Service Toronto" />
             <link rel="canonical" href="https://limoroyal.com/executive-car-hire" />
+            <meta name="robots" content="index, follow"/>
         </Helmet>
         <div>
             <div className='relative'>
@@ -37,7 +37,7 @@ const ExecutiveCarHire = () => {
                     <ServiceSidePanel />
                     <div className='w-full md:w-3/5 lg:w-2/3'>
                         <div data-aos="fade-up">
-                            <img src={ExecutiveBanner} className='w-full h-full' />
+                            <img src={ExecutiveBanner} className='w-full h-full' alt='Executive Car Hire Toronto' />
                         </div>
                         <div className='border-b webBorderColor pb-10 mb-10' data-aos="fade-up">
                             <h1 className='text-white text-2xl lg:text-4xl mt-10 mb-5 lg:mb-10'>Executive Car Hire</h1>

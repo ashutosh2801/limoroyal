@@ -9,11 +9,12 @@ const WeddingCars = () => {
   return (
     <div>
         <Helmet>
-            <title>Wedding Cars & Airport Limo Service | LimoRoyal</title>
+            <title>Wedding Limo & Chauffeur Services Toronto | Limo Royale</title>
             <meta name="description" content="Elegant wedding cars and airport limo service to make your big day perfect—reliable transport for your special moments." />
             <meta name="keywords" content="airport limo service, airport limo" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="canonical" href="https://limoroyal.com/wedding-cars" />
+            <meta name="robots" content="index, follow"/>
         </Helmet>
         <div>
             <div className='relative'>
@@ -37,7 +38,7 @@ const WeddingCars = () => {
                     <ServiceSidePanel />
                     <div className='w-full md:w-3/5 lg:w-2/3'>
                         <div data-aos="fade-up">
-                            <img src={WeddingBanner} className='w-full h-full' />
+                            <img src={WeddingBanner} className='w-full h-full' alt='Luxurious Wedding Cars' />
                         </div>
                         <div className='border-b webBorderColor pb-10 mb-10' data-aos="fade-up">
                             <h1 className='text-white text-2xl lg:text-4xl mt-10 mb-5 lg:mb-10'>Make Your Special Day Unforgettable with Luxurious Wedding Transportation</h1>

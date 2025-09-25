@@ -7,11 +7,11 @@ const CorporateLimoService = () => {
   return (
     <div>
         <Helmet>
-            <title>Corporate Limo Service & Airport Transfers | LimoRoyal</title>
-            <meta name="description" content="Executive corporate limo service including limo ride to airport and seamless airport transfer solutions—on time, every time." />
-            <meta name="keywords" content="limo ride to airport, airport transfer" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Corporate Limo & Airport Shuttle Service Toronto | Limo Royale</title>
+            <meta name="description" content="Book professional corporate limo, airport shuttle, and Toronto shuttle services with Limo Royale. Ensure comfort, reliability, and style—reserve now!" />
+            <meta name="keywords" content="lCorporate Limo Service, Corporate Limo Service in Toronto, Airport Shuttle Toronto, Toronto Shuttle Service" />
             <link rel="canonical" href="https://limoroyal.com/corporate-limo-service" />
+            <meta name="robots" content="index, follow"/>
         </Helmet>
         <div>
             <div className='relative'>
@@ -35,7 +35,7 @@ const CorporateLimoService = () => {
                     <ServiceSidePanel />
                     <div className='w-full md:w-3/5 lg:w-2/3'>
                         <div data-aos="fade-up">
-                            <img src={CorporateBanner} className='w-full h-full' />
+                            <img src={CorporateBanner} className='w-full h-full' alt='Limo Royale’s Corporate Limo Service' />
                         </div>
                         <div data-aos="fade-up">
                             <h1 className='text-white text-2xl lg:text-4xl mt-10 mb-5 lg:mb-10'>Business Travel Redefined with Precision and Luxury</h1>

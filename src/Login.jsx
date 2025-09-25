@@ -5,9 +5,10 @@ const Login = () => {
   return (
     <div>
         <Helmet>
-            <title>Client Login | Manage Airport Limo Bookings | LimoRoyal</title>
-            <meta name="description" content="Access your account to manage airport limo and chauffeur service bookings securely and conveniently." />
-            <meta name="keywords" content="airport limo service, airport chauffeur service" />
+            <title>Login to Limo Royale | Account & Order Management</title>
+            <meta name="description" content="Access your Limo Royale account to manage orders, view purchase history, and personalize your shopping experience with secure login."/>
+            <meta name="keywords" content="Airport Limo Service Toronto, Pearson Airport Limo Service"/>
+            <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/login" />
         </Helmet>
         <div className='relative'>

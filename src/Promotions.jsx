@@ -9,10 +9,10 @@ const Promotions = () => {
   return (
     <div>
         <Helmet>
-            <title>Limo Promotions & Airport Chauffeur Deals | LimoRoyal</title>
-            <meta name="description" content="Special offers on airport chauffeur service and limo rides—grab the best deals from LimoRoyal now." />
-            <meta name="keywords" content="airport chauffeur service, airport limo service" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Limo Royale Promotions | Luxury Limo & Airport Chauffeur Deals</title>
+            <meta name="description" content="Explore exclusive promotions on luxury limo and airport chauffeur services at Limo Royale. Book now to enjoy premium rides at unbeatable prices." />
+            <meta name="keywords" content="Limo Royale Promotions, Luxury Limo & Airport Chauffeur Deals" />
+            <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/promotions" />
         </Helmet>
         <div>
@@ -37,7 +37,7 @@ const Promotions = () => {
                     <ServiceSidePanel />
                     <div className='w-full md:w-3/5 lg:w-2/3'>
                         <div data-aos="fade-up">
-                            <img src={PromotionsBanner} className='w-full h-full' />
+                            <img src={PromotionsBanner} className='w-full h-full' alt='Promotion Limo Service' />
                         </div>
                         <div className='border-b webBorderColor pb-10 mb-10' data-aos="fade-up">
                             <h1 className='text-white text-2xl lg:text-4xl mt-10 mb-5 lg:mb-10'>Arrive in Style and Make Memories to Last a Lifetime</h1>

@@ -9,9 +9,10 @@ const BacheloretteServices = () => {
   return (
     <div>
         <Helmet>
-            <title>Party Limo for Birthdays & Bachelorette | Airport Limo Too | LimoRoyal</title>
-            <meta name="description" content="Celebrate with style—birthday, bachelor, and bachelorette limo service with optional airport pickup and limo transfer." />
-            <meta name="keywords" content="airport pickup, airport transfer" />
+            <title>Celebrate in Style: Birthday & Party Limo Service | Limo Royale</title>
+            <meta name="description" content="Make your special occasion unforgettable with Limo Royale's luxury limo service. Perfect for birthdays, bachelor & bachelorette parties. Book your ride today!" />
+            <meta name="keywords" content="Birthdays, Bachelor & Bachelorette Limo Service" />
+            <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/birthdays-bachelor-and-bachelorette-limo-service" />
         </Helmet>
         <div>
@@ -36,7 +37,7 @@ const BacheloretteServices = () => {
                     <ServiceSidePanel />
                     <div className='w-full md:w-3/5 lg:w-2/3'>
                         <div data-aos="fade-up">
-                            <img src={BacheloretteBanner} className='w-full h-full' />
+                            <img src={BacheloretteBanner} className='w-full h-full' alt='Party Limo for Birthdays & Bachelorette' />
                         </div>
                         <div className='border-b webBorderColor pb-10 mb-10' data-aos="fade-up">
                             <h1 className='text-white text-2xl lg:text-4xl mt-10 mb-5 lg:mb-10'>Celebrate in Style and Luxury with Limo Royale</h1>

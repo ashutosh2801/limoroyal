@@ -29,7 +29,7 @@ const LuxuryJetCharter = () => {
                     <ServiceSidePanel />
                     <div className='w-full md:w-3/5 lg:w-2/3'>
                         <div data-aos="fade-up">
-                            <img src={jetBanner} className='w-full h-full' />
+                            <img src={jetBanner} className='w-full h-full' alt='Luxury Jet Charter service' />
                         </div>
                         <div className='border-b webBorderColor pb-10 mb-10' data-aos="fade-up">
                             <h1 className='text-white text-2xl lg:text-4xl mt-10 mb-5 lg:mb-10'>Luxury Jet Charter</h1>

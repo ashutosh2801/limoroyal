@@ -9,10 +9,10 @@ const AirportMeetandGreetServices = () => {
   return (
     <div>
         <Helmet>
-            <title>Airport Meet & Greet with Chauffeur Service | LimoRoyal</title>
-            <meta name="description" content="Warm airport meet and greet paired with a professional chauffeur service—luxury limo airport service starts here." />
-            <meta name="keywords" content="limo airport service near me, airport chauffeur service" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Airport Meet & Greet Services Toronto | Limo Royale</title>
+            <meta name="description" content="Experience seamless airport arrivals with Limo Royale's Meet & Greet service. Our professional chauffeurs ensure a smooth transition from gate to ride. Book now!" />
+            <meta name="keywords" content="Airport Meet & Greet Services Toronto" />
+            <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/airport-meet-and-greet-services" />
         </Helmet>
         <div>
@@ -37,7 +37,7 @@ const AirportMeetandGreetServices = () => {
                     <ServiceSidePanel />
                     <div className='w-full md:w-3/5 lg:w-2/3'>
                         <div data-aos="fade-up">
-                            <img src={AirportMeetBanner} className='w-full h-full' />
+                            <img src={AirportMeetBanner} className='w-full h-full' alt='Airport Meet & Greet with Chauffeur Service' />
                         </div>
                         <div className='border-b webBorderColor pb-10 mb-10' data-aos="fade-up">
                             <h1 className='text-white text-2xl lg:text-4xl mt-10 mb-5 lg:mb-10'>Seamless and Luxurious Airport Transfers</h1>

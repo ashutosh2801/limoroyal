@@ -41,11 +41,11 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Luxury Limo & Airport Chauffeur Service | LimoRoyal</title>
-        <meta name="description" content="Experience premium airport chauffeur service and luxury limo rides. Reliable, elegant, and tailored for your comfort—book now with LimoRoyal." />
+        <title>Limo Royale | Luxury Limo & Airport Chauffeur Service Toronto</title>
+        <meta name="description" content="Travel like royalty with Limo Royale. Premium fleet, expert chauffeurs, and personalized service for corporate, airport, or special events. Book now!" />
         <meta name="keywords" content="airport chauffeur service, airport limo service" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://limoroyal.com" />
+        <meta name="robots" content="index, follow"/>
       </Helmet>
 
       <Slider />
@@ -53,7 +53,7 @@ const Home = () => {
           <div className='container mx-auto px-2'>
             <div className='grid md:grid-cols-2 space-x-4 py-17' data-aos="fade-up">
               <div>
-                <h2 className='text-white text-2xl lg:text-4xl mb-5 lg:mb-0 leading-snug font-medium'>Experience True Luxury with Over 20 Years of Global Expertise</h2>
+                <h1 className='text-white text-2xl lg:text-4xl mb-5 lg:mb-0 leading-snug font-medium'>Experience True Luxury with Over 20 Years of Global Expertise</h1>
               </div>
               <div>
                 <p className='webFontColor text-base leading-relaxed'>At Limo Royale, we go beyond providing simply transportation services. In fact, our goal is to provide a luxurious, memorable, and most satisfactory experience to our clientele. With more than 20 years of experience spanning multiple countries across the globe, we truly understand what clients require. Our expertise in the hotel and hospitality industries adds more depth to our service to clients. Our objective is to provide clients with a royal experience that exceeds expectations in luxury transportation.</p>
@@ -151,8 +151,8 @@ const Home = () => {
               <div className='grid md:grid-cols-2 md:space-x-5 space-y-5 lg:space-y-0 mt-10 lg:mt-10'>
                 <div className='relative' data-aos="fade-up">
                   {!isPlaying ? (
-                    <div  onClick={handlePlay} className="relative cursor-pointer">
-                      <img src={VideoThumbnail} className="w-full h-64 md:h-100 lg:h-140 xl:h-180 object-cover rounded-md" />
+                    <div onClick={handlePlay} className="relative cursor-pointer">
+                      <img src={VideoThumbnail} alt='Limo Service Toronto' className="w-full h-64 md:h-100 lg:h-140 xl:h-180 object-cover rounded-md" />
                       <div className="absolute inset-0 flex items-center justify-center">
                         <div className='rounded-full border border-white p-5'><PlayIcon className="w-12 h-12 text-white" /></div>
                       </div>
@@ -162,7 +162,7 @@ const Home = () => {
                   )}
                 </div>
                 <div data-aos="fade-up">
-                  <img src={CarBanner} className="w-full h-64 md:h-100 lg:h-140 xl:h-180 object-cover rounded-md" />
+                  <img src={CarBanner} alt='A Royal Experience in Limo Royale' className="w-full h-64 md:h-100 lg:h-140 xl:h-180 object-cover rounded-md" />
                 </div>
               </div>
             </div>
@@ -179,8 +179,8 @@ const Home = () => {
               </div>
               <div className='w-full lg:w-3/5'>
                   <div className='grid grid-cols-2 space-x-5 mt-10 lg:mt-0'>
-                    <div><img src={GlobalImg1} className='w-full h-full' /></div>
-                    <div><img src={GlobalImg2} className='w-full h-full' /></div>
+                    <div><img src={GlobalImg1} className='w-full h-full' alt='Global Experience with Limo Service' /></div>
+                    <div><img src={GlobalImg2} className='w-full h-full' alt='Premium Limo Service Toronto' /></div>
                   </div>
               </div>
             </div>
@@ -220,15 +220,15 @@ const Home = () => {
               <p className='text-base leading-relaxed webFontColor' data-aos="fade-up">At Limo Royale, we believe your ride should be more than just transportation—it should feel like an exceptional experience from start to finish. That’s why we go the extra mile to make sure every journey is comfortable, smooth, and stress-free. <br></br><br></br>Before every pickup, our team carefully checks each vehicle inside and out. From cleanliness to performance, nothing is left to chance. We make sure the car is spotless, perfectly prepared, and ready to give you the kind of ride you’d expect from a luxury service. <br></br><br></br>It’s the little details that matter—stepping into a fresh, polished car, enjoying the quiet elegance, and knowing everything has been taken care of for you. With us, you don’t just get from point A to point B—you enjoy the journey.</p>
               <div className='grid md:grid-cols-3 md:space-x-5 space-y-5 lg:space-y-0 my-10'>
                 <div className='webBorderColor border rounded-lg p-5' data-aos="fade-up">
-                  <img src={Icon1} className='filter brightness-0 invert' />
+                  <img src={Icon1} alt='Reclining seats' className='filter brightness-0 invert' />
                   <h5 className='text-white text-xl lg:text-3xl mt-5 font-medium'>Reclining seats</h5>
                 </div>
                 <div className='webBorderColor border rounded-lg p-5' data-aos="fade-up">
-                  <img src={Icon2} className='filter brightness-0 invert' />
+                  <img src={Icon2} alt='State-of-the-art sound systems' className='filter brightness-0 invert' />
                   <h5 className='text-white text-xl lg:text-3xl mt-5 font-medium'>State-of-the-art sound systems</h5>
                 </div>
                 <div className='webBorderColor border rounded-lg p-5' data-aos="fade-up">
-                  <img src={Icon3} className='filter brightness-0 invert' />
+                  <img src={Icon3} alt='Premium amenities' className='filter brightness-0 invert' />
                   <h5 className='text-white text-xl lg:text-3xl mt-5 font-medium'>Premium amenities</h5>
                 </div>
               </div>
@@ -273,8 +273,8 @@ const Home = () => {
             <div className='flex flex-col lg:flex-row lg:space-x-12 space-y-10 lg:space-y-0 items-center py-15'>
               <div className='w-full lg:w-3/5' data-aos="fade-up">
                   <div className='grid grid-cols-2 space-x-5'>
-                    <div><img src={GlobalImg3} className='w-full h-full' /></div>
-                    <div><img src={GlobalImg4} className='w-full h-full' /></div>
+                    <div><img src={GlobalImg3} className='w-full h-full' alt='Join with the best Limo Service in Toronto' /></div>
+                    <div><img src={GlobalImg4} className='w-full h-full' alt='VIP Membership' /></div>
                   </div>
               </div>
               <div className='w-full lg:w-2/5' data-aos="fade-up">

@@ -9,10 +9,10 @@ const LuxuryChauffeuringServices = () => {
   return (
     <div>
         <Helmet>
-            <title>Luxury Chauffeuring & Airport Limo Service London | LimoRoyal</title>
-            <meta name="description" content="Premier luxury chauffeur service in London, including dedicated airport limo and seamless transfers—luxury you can trust." />
-            <meta name="keywords" content="airport limo service, airport chauffeur service" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Toronto Airport Chauffeur & Luxury Chauffeuring | Limo Royale</title>
+            <meta name="description" content="Experience premium luxury chauffeuring in Toronto with Limo Royale. Airport transfers, corporate rides & special occasions—book your chauffeur today!" />
+            <meta name="keywords" content="Toronto Airport Chauffeur, Luxury Chauffeuring Services" />
+            <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/luxury-chauffeuring-services-to-londons" />
         </Helmet>
         <div>
@@ -37,7 +37,7 @@ const LuxuryChauffeuringServices = () => {
                     <ServiceSidePanel />
                     <div className='w-full md:w-3/5 lg:w-2/3'>
                         <div data-aos="fade-up">
-                            <img src={chauffeuringBanner} className='w-full h-full' />
+                            <img src={chauffeuringBanner} className='w-full h-full' alt='Luxury Chauffeuring Services' />
                         </div>
                         <div className='border-b webBorderColor pb-10 mb-10' data-aos="fade-up">
                             <h1 className='text-white text-2xl lg:text-4xl mt-10 mb-5 lg:mb-10'>Luxury Chauffeuring Services</h1>

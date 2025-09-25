@@ -3,10 +3,18 @@ import ServiceSidePanel from './components/ServiceSidePanel'
 import EventBanner from '../src/assets/services/events-service.jpg'
 import CustomerExperiences from './components/CustomerExperiences'
 import ServiceFaq from './components/ServiceFaq'
+import { Helmet } from 'react-helmet'
 
 const Events = () => {
   return (
     <div>
+        <Helmet>
+            <title>Luxury Group Chauffeuring & Event Transportation | Limo Royale</title>
+            <meta name="description" content="Book Limo Royale for luxury group and event transportation. Corporate, weddings, VIPs, and social events—travel in style and comfort. Reserve now!" />
+            <meta name="keywords" content="Group Transportation Service in Toronto" />
+            <meta name="robots" content="index, follow"/>
+            <link rel="canonical" href="https://limoroyal.com/luxury-chauffeuring-services-to-londons" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>
@@ -29,7 +37,7 @@ const Events = () => {
                     <ServiceSidePanel />
                     <div className='w-full md:w-3/5 lg:w-2/3'>
                         <div data-aos="fade-up">
-                            <img src={EventBanner} className='w-full h-full' />
+                            <img src={EventBanner} className='w-full h-full' alt='Event and Group Charter Services' />
                         </div>
                         <div className='border-b webBorderColor pb-10 mb-10' data-aos="fade-up">
                             <h1 className='text-white text-2xl lg:text-4xl mt-10 mb-5 lg:mb-10'>Seamless and Stylish Transportation for Every Occasion</h1>

@@ -32,7 +32,7 @@ const Gallery = () => {
                     <div key={index} className='col-span-1' data-aos="fade-up">
                     <img
                         src={img}
-                        alt={`Gallery ${index + 1}`}
+                        alt='Travel with BMW XM and BMW M340i'
                         className='w-full h-70 lg:h-90 object-cover cursor-pointer'
                         onClick={() => { setIsOpen(true); setPhotoIndex(index + 1); }}
                     />
