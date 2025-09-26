@@ -41,7 +41,7 @@ const Gallery = () => {
             </div>
 
             <div className='relative mt-10 mb-5 text-center' data-aos="fade-up">
-                <a href='/online-reservations' className='inline-block view-more-btn text-sm px-10 py-5 uppercase'>book our fleet today</a>
+                <a href='/online-reservations' title="Book Luxury Fleet Canada" className='inline-block view-more-btn text-sm px-10 py-5 uppercase'>book our fleet today</a>
             </div>
         </div>
         {/* Lightbox */}

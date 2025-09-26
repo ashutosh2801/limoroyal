@@ -47,7 +47,7 @@ const Slider = () => {
                     <h2 className="text-5xl md:text-5xl lg:text-7xl font-medium mb-2 text-white leading-tight">
                     Where Luxury <br></br> Meets the Road
                     </h2>
-                    <a href='/online-reservations' className='inline-block book-now-slide text-sm px-9 py-4 mt-2 uppercase'>Book Now</a>
+                    <a href='/online-reservations' title='Book Now from Limo Royale' className='inline-block book-now-slide text-sm px-9 py-4 mt-2 uppercase'>Book Now</a>
                 </div>
             </SwiperSlide>
             ))}

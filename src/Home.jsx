@@ -57,7 +57,7 @@ const Home = () => {
               </div>
               <div>
                 <p className='webFontColor text-base leading-relaxed'>At Limo Royale, we go beyond providing simply transportation services. In fact, our goal is to provide a luxurious, memorable, and most satisfactory experience to our clientele. With more than 20 years of experience spanning multiple countries across the globe, we truly understand what clients require. Our expertise in the hotel and hospitality industries adds more depth to our service to clients. Our objective is to provide clients with a royal experience that exceeds expectations in luxury transportation.</p>
-                <a href='tel:4167255466' className='webFontColor mt-5 block'>
+                <a href='tel:4167255466' title='Limo Royale Hotline' className='webFontColor mt-5 block'>
                   <div className='bg-white rounded-full px-4 lg:px-5 py-4 mr-2 inline-block'><FontAwesomeIcon icon={faHeadset} className="text-red-800 text-3xl" /></div> <span className='webColor'>Call Center:</span> 416-725-5466
                 </a>
               </div>
@@ -80,40 +80,40 @@ const Home = () => {
                   <SwiperSlide>
                     <div className="text-left">
                       <a href='/fleet'><img src={cat1} alt="LUXURY SEDAN" className="w-full h-50 object-contain bg-[#222] rounded-xl" loading='lazy' /></a>
-                      <h3 className="text-white text-xl uppercase my-5"><a href=''>LUXURY SEDAN</a></h3>
-                      <a href='/online-reservations' className='webColor text-base'>Book Now</a>
+                      <h3 className="text-white text-xl uppercase my-5"><a href='/fleet'>LUXURY SEDAN</a></h3>
+                      <a href='/online-reservations' title='Book Now Luxury Sedan' className='webColor text-base'>Book Now</a>
                     </div>
                   </SwiperSlide>
 
                   <SwiperSlide>
                     <div className="text-left">
                       <a href='/fleet'><img src={cat2} alt="LUXURY SUV" className="w-full h-50 object-contain bg-[#222] rounded-xl" loading='lazy' /></a>
-                      <h3 className="text-white text-xl uppercase my-5"><a href=''>LUXURY SUV</a></h3>
-                      <a href='/online-reservations' className='webColor text-base'>Book Now</a>
+                      <h3 className="text-white text-xl uppercase my-5"><a href='/fleet'>LUXURY SUV</a></h3>
+                      <a href='/online-reservations' title='Book Now Luxury SUV' className='webColor text-base'>Book Now</a>
                     </div>
                   </SwiperSlide>
 
                   <SwiperSlide>
                     <div className="text-left">
                       <a href='/fleet'><img src={cat3} alt="EXECUTIVE VAN" className="w-full h-50 object-contain bg-[#222] rounded-xl" loading='lazy' /></a>
-                      <h3 className="text-white text-xl uppercase my-5"><a href=''>EXECUTIVE VAN</a></h3>
-                      <a href='/online-reservations' className='webColor text-base'>Book Now</a>
+                      <h3 className="text-white text-xl uppercase my-5"><a href='/fleet'>EXECUTIVE VAN</a></h3>
+                      <a href='/online-reservations' title='Book Now Executive Van' className='webColor text-base'>Book Now</a>
                     </div>
                   </SwiperSlide>
 
                   <SwiperSlide>
                     <div className="text-left">
                       <a href='/fleet'><img src={cat4} alt="STRETCH LIMO" className="w-full h-50 object-contain bg-[#222] rounded-xl" loading='lazy' /></a>
-                      <h3 className="text-white text-xl uppercase my-5"><a href=''>STRETCH LIMO</a></h3>
-                      <a href='/online-reservations' className='webColor text-base'>Book Now</a>
+                      <h3 className="text-white text-xl uppercase my-5"><a href='/fleet'>STRETCH LIMO</a></h3>
+                      <a href='/online-reservations' title='Book Now Stretch Limo' className='webColor text-base'>Book Now</a>
                     </div>
                   </SwiperSlide>
 
                   <SwiperSlide>
                     <div className="text-left">
                       <a href='/fleet'><img src={cat5} alt="LUXURY COACH" className="w-full h-50 object-contain bg-[#222] rounded-xl" loading='lazy' /></a>
-                      <h3 className="text-white text-xl uppercase my-5"><a href=''>LUXURY COACH</a></h3>
-                      <a href='/online-reservations' className='webColor text-base'>Book Now</a>
+                      <h3 className="text-white text-xl uppercase my-5"><a href='/fleet'>LUXURY COACH</a></h3>
+                      <a href='/online-reservations' title='Book Now Luxury Coach' className='webColor text-base'>Book Now</a>
                     </div>
                   </SwiperSlide>
                 </Swiper>
@@ -175,7 +175,7 @@ const Home = () => {
                 <small className='webColor uppercase'>Premium drivers</small>
                 <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5 font-medium'>Our Global Experience</h2>
                 <p className='text-base leading-relaxed webFontColor'>Limo Royale knows how to best serve its clients with expertise gained over two years in the industry. Experience in the hotel industry has taught us the importance of maintaining client satisfaction throughout. We don’t just meet expectations – we exceed them. We strive to be the best in the industry, providing the highest level of service to the clients, going beyond simply being yet another limo service.</p>
-                <a href='/online-reservations' className='inline-block book-now-slide text-sm px-9 py-4 mt-10 uppercase'>Book Now</a>
+                <a href='/online-reservations' title='Luxury Limo & Airport Chauffeur Service Toronto' className='inline-block book-now-slide text-sm px-9 py-4 mt-10 uppercase'>Book Now</a>
               </div>
               <div className='w-full lg:w-3/5'>
                   <div className='grid grid-cols-2 space-x-5 mt-10 lg:mt-0'>
@@ -207,7 +207,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className='relative mt-10'>
-                  <a href='/fleet' className='inline-block view-more-btn text-sm px-10 py-5 uppercase'>View More</a>
+                  <a href='/fleet' title='Luxury Cars in Toronto' className='inline-block view-more-btn text-sm px-10 py-5 uppercase'>View More</a>
                 </div>
               </div>
             </div>
