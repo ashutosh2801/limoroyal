@@ -1,0 +1,39 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # 🔒 Force HTTPS and non-www first
+    RewriteCond %{HTTP_HOST} ^www\.limoroyal\.com [NC]
+    RewriteRule ^(.*)$ https://limoroyal.com/$1 [L,R=301]
+
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://limoroyal.com/$1 [L,R=301]
+
+    # 📄 Map pretty URLs to their static .html files
+    RewriteRule ^about$ about.html [L]
+    RewriteRule ^luxury-limousine$ luxury-limousine.html [L]
+    RewriteRule ^corporate-limo-service$ corporate-limo-service.html [L]
+    RewriteRule ^executive-car-hire$ executive-car-hire.html [L]
+    RewriteRule ^casino-limo-service$ casino-limo-service.html [L]
+    RewriteRule ^airport-transfers$ airport-transfers.html [L]
+    RewriteRule ^wedding-cars$ wedding-cars.html [L]
+    RewriteRule ^ladies-night-out-limo-service$ ladies-night-out-limo-service.html [L]
+    RewriteRule ^luxury-chauffeuring-services-to-londons$ luxury-chauffeuring-services-to-londons.html [L]
+    RewriteRule ^airport-meet-and-greet-services$ airport-meet-and-greet-services.html [L]
+    RewriteRule ^promotions$ promotions.html [L]
+    RewriteRule ^long-distance-limo-service$ long-distance-limo-service.html [L]
+    RewriteRule ^luxury-chauffeuring-services$ luxury-chauffeuring-services.html [L]
+    RewriteRule ^bus-charter$ bus-charter.html [L]
+    RewriteRule ^areas-served$ areas-served.html [L]
+    RewriteRule ^fleet$ fleet.html [L]
+    RewriteRule ^contact$ contact.html [L]
+    RewriteRule ^online-reservations$ online-reservations.html [L]
+    RewriteRule ^login$ login.html [L]
+    RewriteRule ^luxury-jet-charter$ luxury-jet-charter.html [L]
+    RewriteRule ^close-protection-service$ close-protection-service.html [L]
+    RewriteRule ^seaports-transport$ seaports-transport.html [L]
+
+    # 🌐 Fallback: send everything else to index.html
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^.*$ index.html [L]
+</IfModule>

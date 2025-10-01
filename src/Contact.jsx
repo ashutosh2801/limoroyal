@@ -102,7 +102,25 @@ const Contact = () => {
         <div>
             <div className='bg-[#0a0a0a] py-15 mt-15' data-aos="fade-up">
                 <div className='container mx-auto px-2'>
-                    <small className='text-sm webColor uppercase'>Get in touch</small>
+
+    <iframe
+      id="JotFormIFrame-252725726484465"
+      title="Get in touch"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      allow="geolocation; microphone; camera; fullscreen; payment"
+      src="https://form.jotform.com/252725726484465"
+      frameborder="0"
+      width={`100%`}
+      height={`1300`}
+    //   style="min-width:100%;max-width:100%;height:539px;border:none;"
+    //   scrolling="no"
+    >
+    </iframe>
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+    <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-252725726484465']", "https://form.jotform.com/")</script>
+    
+                    {/* <small className='text-sm webColor uppercase'>Get in touch</small>
                     <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5'>Feel free to talk to us</h2>
                     <form className='space-y-5'>
                         <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
@@ -192,7 +210,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <submit className='inline-block check-map-btn text-sm px-9 py-4 mt-2 uppercase cursor-pointer'>Submit Now</submit>
-                    </form>
+                    </form> */}
                 </div>
             </div>
         </div>
