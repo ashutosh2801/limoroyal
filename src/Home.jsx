@@ -46,6 +46,17 @@ const Home = () => {
         <meta name="keywords" content="airport chauffeur service, airport limo service" />
         <link rel="canonical" href="https://limoroyal.com" />
         <meta name="robots" content="index, follow"/>
+
+        <meta property="og:title" content="Limo Royale | Luxury Limo & Airport Chauffeur Service Toronto" />
+        <meta property="og:description" content="Travel like royalty with Limo Royale. Premium fleet, expert chauffeurs, and personalized service for corporate, airport, or special events. Book now!" />
+        <meta property="og:url" content="https://limoroyal.com/" />
+
+        <meta name="twitter:url" content="https://limoroyal.com" />
+        <meta name="twitter:title" content="Limo Royale | Luxury Limo & Airport Chauffeur Service Toronto" />
+        <meta name="twitter:description" content="Travel like royalty with Limo Royale. Premium fleet, expert chauffeurs, and personalized service for corporate, airport, or special events. Book now!" />
+
+        <meta name="DC.title" content="Limo Royale | Luxury Limo & Airport Chauffeur Service Toronto" />
+        <link rel="alternate" href="https://limoroyal.com" hreflang="en-ca" />
       </Helmet>
 
       <Slider />

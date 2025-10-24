@@ -10,6 +10,16 @@ const LuxuryLimousine = () => {
             <meta name="keywords" content="Luxury Limousine Services for Every Occasion" />
             <link rel="canonical" href="https://limoroyal.com/luxury-limousine" />
             <meta name="robots" content="index, follow"/>
+
+            <meta property="og:title" content="Luxury Limousine Services for Every Occasion | Limo Royale" />
+        <meta property="og:description" content="Book a premium limousine with Limo Royale. Experience comfort and elegance for any occasion. Reserve your ride today!" />
+        <meta property="og:url" content="https://limoroyal.com/luxury-limousine" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/luxury-limousine" />
+        <meta name="twitter:title" content="Luxury Limousine Services for Every Occasion | Limo Royale" />
+        <meta name="twitter:description" content="Book a premium limousine with Limo Royale. Experience comfort and elegance for any occasion. Reserve your ride today!" />
+        <meta name="DC.title" content="Luxury Limousine Services for Every Occasion | Limo Royale" />
+        <link rel="alternate" href="https://limoroyal.com/luxury-limousine" hreflang="en-ca" />
         </Helmet>
         <div>
             <div className='relative'>

@@ -14,6 +14,16 @@ const Events = () => {
             <meta name="keywords" content="Group Transportation Service in Toronto" />
             <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/luxury-chauffeuring-services-to-londons" />
+
+            <meta property="og:title" content="Luxury Group Chauffeuring & Event Transportation | Limo Royale" />
+        <meta property="og:description" content="Book Limo Royale for luxury group and event transportation. Corporate, weddings, VIPs, and social events—travel in style and comfort. Reserve now!" />
+        <meta property="og:url" content="https://limoroyal.com/luxury-chauffeuring-services-to-londons" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/luxury-chauffeuring-services-to-londons" />
+        <meta name="twitter:title" content="Luxury Group Chauffeuring & Event Transportation | Limo Royale" />
+        <meta name="twitter:description" content="Book Limo Royale for luxury group and event transportation. Corporate, weddings, VIPs, and social events—travel in style and comfort. Reserve now!" />
+        <meta name="DC.title" content="Luxury Group Chauffeuring & Event Transportation | Limo Royale" />
+        <link rel="alternate" href="https://limoroyal.com/luxury-chauffeuring-services-to-londons" hreflang="en-ca" />
         </Helmet>
         <div>
             <div className='relative'>

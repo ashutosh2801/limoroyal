@@ -14,6 +14,16 @@ const LongDistanceLimoService = () => {
             <meta name="keywords" content="Long-Distance Limo services Toronto" />
             <link rel="canonical" href="https://limoroyal.com/long-distance-limo-service" />
             <meta name="robots" content="index, follow"/>
+
+            <meta property="og:title" content="Long Distance Limo Service in Toronto | Travel with Comfort" />
+        <meta property="og:description" content="Book affordable long-distance limo services Toronto that ensure a smooth and luxurious ride. Comfort, reliability, and style for all your travel needs. Reserve now!" />
+        <meta property="og:url" content="https://limoroyal.com/long-distance-limo-service" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/long-distance-limo-service" />
+        <meta name="twitter:title" content="Long Distance Limo Service in Toronto | Travel with Comfort" />
+        <meta name="twitter:description" content="Book affordable long-distance limo services Toronto that ensure a smooth and luxurious ride. Comfort, reliability, and style for all your travel needs. Reserve now!" />
+        <meta name="DC.title" content="Long Distance Limo Service in Toronto | Travel with Comfort" />
+        <link rel="alternate" href="https://limoroyal.com/long-distance-limo-service" hreflang="en-ca" />
         </Helmet>
         <div>
             <div className='relative'>

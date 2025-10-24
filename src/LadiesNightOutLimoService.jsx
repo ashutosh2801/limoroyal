@@ -14,6 +14,17 @@ const LadiesNightOutLimoService = () => {
             <meta name="keywords" content="Ladies Night Out Limo Service in Toronto" />
             <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/ladies-night-out-limo-service" />
+
+            <meta property="og:title" content="Ladies Night Out Limo Service in Toronto | Limo Royale" />
+        <meta property="og:description" content="Celebrate your night out in style with Limo Royale’s luxury limo service in Toronto. Perfect for groups—book your fun and safe ride today!" />
+        <meta property="og:url" content="https://limoroyal.com/ladies-night-out-limo-service" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/ladies-night-out-limo-service" />
+        <meta name="twitter:title" content="Ladies Night Out Limo Service in Toronto | Limo Royale" />
+        <meta name="twitter:description" content="Celebrate your night out in style with Limo Royale’s luxury limo service in Toronto. Perfect for groups—book your fun and safe ride today!" />
+        <meta name="DC.title" content="Ladies Night Out Limo Service in Toronto | Limo Royale" />
+        <link rel="alternate" href="https://limoroyal.com/ladies-night-out-limo-service" hreflang="en-ca" />
+        
         </Helmet>
         <div>
             <div className='relative'>

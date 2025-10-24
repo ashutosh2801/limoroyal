@@ -37,6 +37,16 @@ const AreasServed = () => {
             <meta name="keywords" content="Airport Limo Service, Custom Tours & Luxury Travel Experiences" />
             <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/areas-served" />
+
+            <meta property="og:title" content="Areas We Serve for Airport Limo & Transfers | LimoRoyal" />
+        <meta property="og:description" content="Tailor your perfect journey with Limo Royale. Book luxury custom tours across Niagara, Toronto, Montreal & more with expert chauffeurs today!" />
+        <meta property="og:url" content="https://limoroyal.com/areas-served" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/areas-served" />
+        <meta name="twitter:title" content="Areas We Serve for Airport Limo & Transfers | LimoRoyal" />
+        <meta name="twitter:description" content="Tailor your perfect journey with Limo Royale. Book luxury custom tours across Niagara, Toronto, Montreal & more with expert chauffeurs today!" />
+        <meta name="DC.title" content="Areas We Serve for Airport Limo & Transfers | LimoRoyal" />
+        <link rel="alternate" href="https://limoroyal.com/areas-served" hreflang="en-ca" />
         </Helmet>
         <div>
             <div className='relative'>

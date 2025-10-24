@@ -12,6 +12,16 @@ const CorporateLimoService = () => {
             <meta name="keywords" content="lCorporate Limo Service, Corporate Limo Service in Toronto, Airport Shuttle Toronto, Toronto Shuttle Service" />
             <link rel="canonical" href="https://limoroyal.com/corporate-limo-service" />
             <meta name="robots" content="index, follow"/>
+
+            <meta property="og:title" content="Corporate Limo & Airport Shuttle Service Toronto | Limo Royale" />
+        <meta property="og:description" content="Book professional corporate limo, airport shuttle, and Toronto shuttle services with Limo Royale. Ensure comfort, reliability, and style—reserve now!" />
+        <meta property="og:url" content="https://limoroyal.com/corporate-limo-service" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/corporate-limo-service" />
+        <meta name="twitter:title" content="Corporate Limo & Airport Shuttle Service Toronto | Limo Royale" />
+        <meta name="twitter:description" content="Book professional corporate limo, airport shuttle, and Toronto shuttle services with Limo Royale. Ensure comfort, reliability, and style—reserve now!" />
+        <meta name="DC.title" content="Corporate Limo & Airport Shuttle Service Toronto | Limo Royale" />
+        <link rel="alternate" href="https://limoroyal.com/corporate-limo-service" hreflang="en-ca" />
         </Helmet>
         <div>
             <div className='relative'>

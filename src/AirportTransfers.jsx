@@ -10,10 +10,21 @@ const AirportTransfers = () => {
     <div>
         <Helmet>
             <title>Airport Limousine & Transportation Service in Toronto | Limo Royale</title>
-            <meta name="description" content="Book your wedding limo with Limo Royale. Enjoy luxury transportation for your special day in Toronto. Reserve your elegant ride today!" />
+            <meta name="description" content="Book the best airport limo, limousine & Pearson Airport car service in Toronto with Limo Royale. Reliable rides & airport transportation—reserve today!" />
             <meta name="keywords" content="Airport Limo Toronto, Airport Limo Service Toronto, Airport Limousine Service Toronto, Limo From Pearson Airport, Pearson Airport Limo Service, Toronto Airport Limousine, Airport Transportation Toronto, Pearson Airport Car Service, Limo to Pearson Airport, Cheap Airport Limo Toronto, Best Airport Limo Toronto, Best Airport Limo Service Toronto" />
             <link rel="canonical" href="https://limoroyal.com/airport-transfers" />
             <meta name="robots" content="index, follow"/>
+
+            <meta property="og:title" content="Airport Limousine & Transportation Service in Toronto | Limo Royale" />
+        <meta property="og:description" content="Book the best airport limo, limousine & Pearson Airport car service in Toronto with Limo Royale. Reliable rides & airport transportation—reserve today!" />
+        <meta property="og:url" content="https://limoroyal.com/airport-transfers/" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/airport-transfers" />
+        <meta name="twitter:title" content="Airport Limousine & Transportation Service in Toronto | Limo Royale" />
+        <meta name="twitter:description" content="Book the best airport limo, limousine & Pearson Airport car service in Toronto with Limo Royale. Reliable rides & airport transportation—reserve today!" />
+        <meta name="DC.title" content="Airport Limousine & Transportation Service in Toronto | Limo Royale" />
+        <link rel="alternate" href="https://limoroyal.com/airport-transfers" hreflang="en-ca" />
+        
         </Helmet>
         <div>
             <div className='relative'>

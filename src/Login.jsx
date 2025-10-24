@@ -10,6 +10,16 @@ const Login = () => {
             <meta name="keywords" content="Airport Limo Service Toronto, Pearson Airport Limo Service"/>
             <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/login" />
+
+            <meta property="og:title" content="Login to Limo Royale | Account & Order Management" />
+        <meta property="og:description" content="Access your Limo Royale account to manage orders, view purchase history, and personalize your shopping experience with secure login." />
+        <meta property="og:url" content="https://limoroyal.com/login" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/login" />
+        <meta name="twitter:title" content="Login to Limo Royale | Account & Order Management" />
+        <meta name="twitter:description" content="Access your Limo Royale account to manage orders, view purchase history, and personalize your shopping experience with secure login." />
+        <meta name="DC.title" content="Login to Limo Royale | Account & Order Management" />
+        <link rel="alternate" href="https://limoroyal.com/login" hreflang="en-ca" />
         </Helmet>
         <div className='relative'>
             <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>

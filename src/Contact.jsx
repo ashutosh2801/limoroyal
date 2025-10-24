@@ -22,6 +22,16 @@ const Contact = () => {
             <meta name="keywords" content="Book Your Luxury Chauffeur Service Today, Best Airport Limo Service Toronto, Airport Transportation Toronto "/>
             <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/contact" />
+
+            <meta property="og:title" content="Contact Limo Royale | Book Your Luxury Chauffeur Service Today" />
+        <meta property="og:description" content="Get in touch with Limo Royale to reserve your premium limo or airport chauffeur service. Experience comfort and elegance with our expert chauffeurs." />
+        <meta property="og:url" content="https://limoroyal.com/contact" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/contact" />
+        <meta name="twitter:title" content="Contact Limo Royale | Book Your Luxury Chauffeur Service Today" />
+        <meta name="twitter:description" content="Get in touch with Limo Royale to reserve your premium limo or airport chauffeur service. Experience comfort and elegance with our expert chauffeurs." />
+        <meta name="DC.title" content="Contact Limo Royale | Book Your Luxury Chauffeur Service Today" />
+        <link rel="alternate" href="https://limoroyal.com/contact" hreflang="en-ca" />
         </Helmet>
         <div>
             <div className='relative'>

@@ -14,6 +14,16 @@ const AirportMeetandGreetServices = () => {
             <meta name="keywords" content="Airport Meet & Greet Services Toronto" />
             <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/airport-meet-and-greet-services" />
+
+            <meta property="og:title" content="Airport Meet & Greet Services Toronto | Limo Royale" />
+            <meta property="og:description" content="Experience seamless airport arrivals with Limo Royale's Meet & Greet service. Our professional chauffeurs ensure a smooth transition from gate to ride. Book now!" />
+            <meta property="og:url" content="https://limoroyal.com/airport-meet-and-greet-services/" />
+
+            <meta name="twitter:url" content="https://limoroyal.com/airport-meet-and-greet-services" />
+            <meta name="twitter:title" content="Airport Meet & Greet Services Toronto | Limo Royale" />
+            <meta name="twitter:description" content="Experience seamless airport arrivals with Limo Royale's Meet & Greet service. Our professional chauffeurs ensure a smooth transition from gate to ride. Book now!" />
+            <meta name="DC.title" content="Airport Meet & Greet Services Toronto | Limo Royale" />
+            <link rel="alternate" href="https://limoroyal.com/airport-meet-and-greet-services" hreflang="en-ca" />
         </Helmet>
         <div>
             <div className='relative'>

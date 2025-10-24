@@ -14,6 +14,16 @@ const Promotions = () => {
             <meta name="keywords" content="Limo Royale Promotions, Luxury Limo & Airport Chauffeur Deals" />
             <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/promotions" />
+
+            <meta property="og:title" content="Limo Royale Promotions | Luxury Limo & Airport Chauffeur Deals" />
+        <meta property="og:description" content="Explore exclusive promotions on luxury limo and airport chauffeur services at Limo Royale. Book now to enjoy premium rides at unbeatable prices." />
+        <meta property="og:url" content="https://limoroyal.com/promotions" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/promotions" />
+        <meta name="twitter:title" content="Limo Royale Promotions | Luxury Limo & Airport Chauffeur Deals" />
+        <meta name="twitter:description" content="Explore exclusive promotions on luxury limo and airport chauffeur services at Limo Royale. Book now to enjoy premium rides at unbeatable prices." />
+        <meta name="DC.title" content="Limo Royale Promotions | Luxury Limo & Airport Chauffeur Deals" />
+        <link rel="alternate" href="https://limoroyal.com/promotions" hreflang="en-ca" />
         </Helmet>
         <div>
             <div className='relative'>

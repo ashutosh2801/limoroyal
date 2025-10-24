@@ -11,6 +11,16 @@ const BusCharter = () => {
             <meta name="keywords" content="Bus Charter Service Toronto, Luxury Bus Charter & Group Travel" />
             <link rel="canonical" href="https://limoroyal.com/bus-charter" />
             <meta name="robots" content="index, follow"/>
+
+            <meta property="og:title" content="Luxury Bus Charter & Group Travel | Limo Royale" />
+        <meta property="og:description" content="Travel in style with Limo Royale’s luxury bus charters. Corporate, private, or sports groups enjoy spacious fleet, expert chauffeurs, and seamless rides." />
+        <meta property="og:url" content="https://limoroyal.com/bus-charter" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/bus-charter" />
+        <meta name="twitter:title" content="Luxury Bus Charter & Group Travel | Limo Royale" />
+        <meta name="twitter:description" content="Travel in style with Limo Royale’s luxury bus charters. Corporate, private, or sports groups enjoy spacious fleet, expert chauffeurs, and seamless rides." />
+        <meta name="DC.title" content="Luxury Bus Charter & Group Travel | Limo Royale" />
+        <link rel="alternate" href="https://limoroyal.com/bus-charter" hreflang="en-ca" />
         </Helmet>
         <div>
             <div className='relative'>

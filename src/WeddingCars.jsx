@@ -15,6 +15,17 @@ const WeddingCars = () => {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="canonical" href="https://limoroyal.com/wedding-cars" />
             <meta name="robots" content="index, follow"/>
+
+            <meta property="og:title" content="Wedding Limo & Chauffeur Services Toronto | Limo Royale" />
+            <meta property="og:description" content="Elegant wedding cars and airport limo service to make your big day perfect—reliable transport for your special moments." />
+            <meta property="og:url" content="https://limoroyal.com/wedding-cars" />
+
+            <meta name="twitter:url" content="https://limoroyal.com/wedding-cars" />
+            <meta name="twitter:title" content="Wedding Limo & Chauffeur Services Toronto | Limo Royale" />
+            <meta name="twitter:description" content="Elegant wedding cars and airport limo service to make your big day perfect—reliable transport for your special moments." />
+            <meta name="DC.title" content="Wedding Limo & Chauffeur Services Toronto | Limo Royale" />
+            <link rel="alternate" href="https://limoroyal.com/wedding-cars" hreflang="en-ca" />
+        
         </Helmet>
         <div>
             <div className='relative'>

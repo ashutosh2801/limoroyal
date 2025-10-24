@@ -14,6 +14,16 @@ const ExecutiveCarHire = () => {
             <meta name="keywords" content="Executive Car Hire, Executive Car Hire Service Toronto" />
             <link rel="canonical" href="https://limoroyal.com/executive-car-hire" />
             <meta name="robots" content="index, follow"/>
+
+            <meta property="og:title" content="Executive Car Hire & Chauffeur Services in Toronto | Limo Royale" />
+        <meta property="og:description" content="Book premium executive car hire, luxury sedans, SUVs, and professional chauffeur services in Toronto. Ideal for corporate events, airport transfers & more." />
+        <meta property="og:url" content="https://limoroyal.com/executive-car-hire" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/executive-car-hire" />
+        <meta name="twitter:title" content="Executive Car Hire & Chauffeur Services in Toronto | Limo Royale" />
+        <meta name="twitter:description" content="Book premium executive car hire, luxury sedans, SUVs, and professional chauffeur services in Toronto. Ideal for corporate events, airport transfers & more." />
+        <meta name="DC.title" content="Executive Car Hire & Chauffeur Services in Toronto | Limo Royale" />
+        <link rel="alternate" href="https://limoroyal.com/executive-car-hire" hreflang="en-ca" />
         </Helmet>
         <div>
             <div className='relative'>

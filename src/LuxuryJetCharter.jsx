@@ -3,10 +3,28 @@ import ServiceSidePanel from './components/ServiceSidePanel'
 import jetBanner from '../src/assets/services/jet-service.jpg'
 import CustomerExperiences from './components/CustomerExperiences'
 import ServiceFaq from './components/ServiceFaq'
+import { Helmet } from 'react-helmet'
 
 const LuxuryJetCharter = () => {
   return (
     <div>
+        <Helmet>
+            <title>Luxury Jet Charter – Private & Executive Flights | Limo Royal</title>
+            <meta name="description" content="Fly in style with Limo Royal’s luxury jet charter. Enjoy private, personalized flights with flexible scheduling. Book your exclusive journey today." />
+            <meta name="keywords" content="Luxury Jet Charter" />
+            <link rel="canonical" href="https://limoroyal.com/luxury-jet-charter" />
+            <meta name="robots" content="index, follow"/>
+
+            <meta property="og:title" content="Luxury Jet Charter – Private & Executive Flights | Limo Royal" />
+            <meta property="og:description" content="Fly in style with Limo Royal’s luxury jet charter. Enjoy private, personalized flights with flexible scheduling. Book your exclusive journey today." />
+            <meta property="og:url" content="https://limoroyal.com/luxury-jet-charter" />
+
+            <meta name="twitter:url" content="https://limoroyal.com/luxury-jet-charter" />
+            <meta name="twitter:title" content="Luxury Jet Charter – Private & Executive Flights | Limo Royal" />
+            <meta name="twitter:description" content="Fly in style with Limo Royal’s luxury jet charter. Enjoy private, personalized flights with flexible scheduling. Book your exclusive journey today." />
+            <meta name="DC.title" content="Luxury Jet Charter – Private & Executive Flights | Limo Royal" />
+            <link rel="alternate" href="https://limoroyal.com/luxury-jet-charter" hreflang="en-ca" />
+        </Helmet>
         <div>
             <div className='relative'>
                 <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>
