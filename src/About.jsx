@@ -17,6 +17,16 @@ const About = () => {
         <meta name="keywords" content="Best Airport Limo Service Toronto, Airport Transportation Toronto, Cheap Airport Limo Toronto" />
         <link rel="canonical" href="https://limoroyal.com/about" />
         <meta name="robots" content="index, follow"/>
+
+        <meta property="og:title" content="About Limo Royale | Luxury Chauffeur & Limo Services" />
+        <meta property="og:description" content="Experience over 20 years of luxury with Limo Royale. Travel with expert chauffeurs, a pristine fleet, and royal service. Book your ride today!" />
+        <meta property="og:url" content="https://limoroyal.com/about" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/about" />
+        <meta name="twitter:title" content="About Limo Royale | Luxury Chauffeur & Limo Services" />
+        <meta name="twitter:description" content="Experience over 20 years of luxury with Limo Royale. Travel with expert chauffeurs, a pristine fleet, and royal service. Book your ride today!" />
+        <meta name="DC.title" content="About Limo Royale | Luxury Chauffeur & Limo Services" />
+        <link rel="alternate" href="https://limoroyal.com/about" hreflang="en-ca" />
       </Helmet>
       <div>
         <div className='relative'>

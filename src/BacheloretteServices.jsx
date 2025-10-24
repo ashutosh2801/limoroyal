@@ -14,6 +14,16 @@ const BacheloretteServices = () => {
             <meta name="keywords" content="Birthdays, Bachelor & Bachelorette Limo Service" />
             <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/birthdays-bachelor-and-bachelorette-limo-service" />
+
+            <meta property="og:title" content="Celebrate in Style: Birthday & Party Limo Service | Limo Royale" />
+        <meta property="og:description" content="Make your special occasion unforgettable with Limo Royale's luxury limo service. Perfect for birthdays, bachelor & bachelorette parties. Book your ride today!" />
+        <meta property="og:url" content="https://limoroyal.com/birthdays-bachelor-and-bachelorette-limo-service/" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/birthdays-bachelor-and-bachelorette-limo-service" />
+        <meta name="twitter:title" content="Celebrate in Style: Birthday & Party Limo Service | Limo Royale" />
+        <meta name="twitter:description" content="Make your special occasion unforgettable with Limo Royale's luxury limo service. Perfect for birthdays, bachelor & bachelorette parties. Book your ride today!" />
+        <meta name="DC.title" content="Celebrate in Style: Birthday & Party Limo Service | Limo Royale" />
+        <link rel="alternate" href="https://limoroyal.com/birthdays-bachelor-and-bachelorette-limo-service" hreflang="en-ca" />
         </Helmet>
         <div>
             <div className='relative'>

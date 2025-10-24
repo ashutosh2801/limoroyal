@@ -13,7 +13,17 @@ const LuxuryChauffeuringServices = () => {
             <meta name="description" content="Experience premium luxury chauffeuring in Toronto with Limo Royale. Airport transfers, corporate rides & special occasions—book your chauffeur today!" />
             <meta name="keywords" content="Toronto Airport Chauffeur, Luxury Chauffeuring Services" />
             <meta name="robots" content="index, follow"/>
-            <link rel="canonical" href="https://limoroyal.com/luxury-chauffeuring-services-to-londons" />
+            <link rel="canonical" href="https://limoroyal.com/luxury-chauffeuring-services" />
+
+            <meta property="og:title" content="Toronto Airport Chauffeur & Luxury Chauffeuring | Limo Royale" />
+        <meta property="og:description" content="Experience premium luxury chauffeuring in Toronto with Limo Royale. Airport transfers, corporate rides & special occasions—book your chauffeur today!" />
+        <meta property="og:url" content="https://limoroyal.com/luxury-chauffeuring-services" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/luxury-chauffeuring-services" />
+        <meta name="twitter:title" content="Toronto Airport Chauffeur & Luxury Chauffeuring | Limo Royale" />
+        <meta name="twitter:description" content="Experience premium luxury chauffeuring in Toronto with Limo Royale. Airport transfers, corporate rides & special occasions—book your chauffeur today!" />
+        <meta name="DC.title" content="Toronto Airport Chauffeur & Luxury Chauffeuring | Limo Royale" />
+        <link rel="alternate" href="https://limoroyal.com/luxury-chauffeuring-services" hreflang="en-ca" />
         </Helmet>
         <div>
             <div className='relative'>

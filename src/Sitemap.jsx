@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const Sitemap = () => {
   const pages = [
@@ -34,6 +35,24 @@ const Sitemap = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Limo Royal Sitemap | Luxury Limo & Chauffeur Services</title>
+        <meta name="description" content="Easily navigate Limo Royal’s website. Find all pages for luxury limo rentals, airport transfers, and chauffeur services in one place" />
+        <meta name="keywords" content="Complete Guide to Our Limo & Chauffeur Services" />
+        <link rel="canonical" href="https://limoroyal.com/sitemap" />
+        <meta name="robots" content="index, follow"/>
+
+        <meta property="og:title" content="Limo Royal Sitemap | Luxury Limo & Chauffeur Services" />
+        <meta property="og:description" content="Easily navigate Limo Royal’s website. Find all pages for luxury limo rentals, airport transfers, and chauffeur services in one place" />
+        <meta property="og:url" content="https://limoroyal.com/sitemap" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/sitemap" />
+        <meta name="twitter:title" content="Limo Royal Sitemap | Luxury Limo & Chauffeur Services" />
+        <meta name="twitter:description" content="Easily navigate Limo Royal’s website. Find all pages for luxury limo rentals, airport transfers, and chauffeur services in one place" />
+        <meta name="DC.title" content="Limo Royal Sitemap | Luxury Limo & Chauffeur Services" />
+        <link rel="alternate" href="https://limoroyal.com/sitemap" hreflang="en-ca" />
+      </Helmet>
+
         <div className='relative'>
           <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>
           <div className='relative z-10 pt-50 lg:pt-80 pb-30'>

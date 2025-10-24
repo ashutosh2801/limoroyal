@@ -13,6 +13,16 @@ const CasinoLimoService = () => {
             <meta name="keywords" content="limo service to airport near me, airport limo service near me" />
             <link rel="canonical" href="https://limoroyal.com/casino-limo-service" />
             <meta name="robots" content="index, follow"/>
+
+            <meta property="og:title" content="Casino Limo Service Toronto, VIP Casino Transportation – Limo Royale" />
+        <meta property="og:description" content="Arrive in style—top-tier limo service to airport and casino experiences. Luxury on demand with airport limo service near me convenience." />
+        <meta property="og:url" content="https://limoroyal.com/casino-limo-service" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/casino-limo-service" />
+        <meta name="twitter:title" content="Casino Limo Service Toronto, VIP Casino Transportation – Limo Royale" />
+        <meta name="twitter:description" content="Arrive in style—top-tier limo service to airport and casino experiences. Luxury on demand with airport limo service near me convenience." />
+        <meta name="DC.title" content="Casino Limo Service Toronto, VIP Casino Transportation – Limo Royale" />
+        <link rel="alternate" href="https://limoroyal.com/casino-limo-service" hreflang="en-ca" />
         </Helmet>
 
         <div>

@@ -27,6 +27,16 @@ const Fleet = () => {
             <meta name="keywords" content="Fleet of Luxury Airport Limos, Premium Luxury Vehicles for Every Occasion"/>
             <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/fleet" />
+
+            <meta property="og:title" content="Limo Royale Fleet | Premium Luxury Vehicles for Every Occasion" />
+        <meta property="og:description" content="Travel in style with Limo Royale’s luxury fleet of sedans, SUVs, and limousines. Book your premium, comfortable, and unforgettable journey today." />
+        <meta property="og:url" content="https://limoroyal.com/fleet" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/fleet" />
+        <meta name="twitter:title" content="Limo Royale Fleet | Premium Luxury Vehicles for Every Occasion" />
+        <meta name="twitter:description" content="Travel in style with Limo Royale’s luxury fleet of sedans, SUVs, and limousines. Book your premium, comfortable, and unforgettable journey today." />
+        <meta name="DC.title" content="Limo Royale Fleet | Premium Luxury Vehicles for Every Occasion" />
+        <link rel="alternate" href="https://limoroyal.com/fleet" hreflang="en-ca" />
         </Helmet>
         <div>
             <div className='relative'>

@@ -47,6 +47,7 @@ const CloseProtectionService = lazy(() =>
 );
 const SeaportsTransport = lazy(() => import("./SeaportsTransport.jsx"));
 const Sitemap = lazy(() => import("./Sitemap.jsx"));
+const Thankyou = lazy(() => import("./Thankyou.jsx"));
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -248,6 +249,14 @@ const router = createBrowserRouter(
         element={
           <Suspense fallback={<div>Loading...</div>}>
             <Sitemap />
+          </Suspense>
+        }
+      />
+    <Route
+        path="thank-you"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <Thankyou />
           </Suspense>
         }
       />

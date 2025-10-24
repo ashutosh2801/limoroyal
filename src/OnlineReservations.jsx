@@ -10,6 +10,17 @@ const OnlineReservations = () => {
             <meta name="keywords" content="Limo Royale Luxury Chauffeur Service, Cheap Airport Limo"/>
             <meta name="robots" content="index, follow"/>
             <link rel="canonical" href="https://limoroyal.com/online-reservations" />
+
+            <meta property="og:title" content="Book Your Ride Online | Limo Royale Luxury Chauffeur Service" />
+        <meta property="og:description" content="Reserve your luxury limo or private tour with Limo Royale. Easy online booking for airport transfers, city tours, and more." />
+        <meta property="og:url" content="https://limoroyal.com/online-reservations" />
+
+        <meta name="twitter:url" content="https://limoroyal.com/online-reservations" />
+        <meta name="twitter:title" content="Book Your Ride Online | Limo Royale Luxury Chauffeur Service" />
+        <meta name="twitter:description" content="Reserve your luxury limo or private tour with Limo Royale. Easy online booking for airport transfers, city tours, and more." />
+        <meta name="DC.title" content="Book Your Ride Online | Limo Royale Luxury Chauffeur Service" />
+        <link rel="alternate" href="https://limoroyal.com/online-reservations" hreflang="en-ca" />
+
         </Helmet>
         <div className='relative'>
             <div className='page-bg object-cover absolute h-[450px] lg:h-[550px] inset-0 opacity-50'></div>
