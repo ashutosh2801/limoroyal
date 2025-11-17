@@ -190,8 +190,8 @@ const Home = () => {
               </div>
               <div className='w-full lg:w-3/5'>
                   <div className='grid grid-cols-2 space-x-5 mt-10 lg:mt-0'>
-                    <div><img src={GlobalImg1} className='w-full h-[450px] object-cover' alt='Global Experience with Limo Service' /></div>
-                    <div><img src={GlobalImg2} className='w-full h-[450px] object-cover' alt='Premium Limo Service Toronto' /></div>
+                    <div><img src={GlobalImg1} className='w-full h-[250px] md:h-[400px] lg:h-[450px] object-cover' alt='Global Experience with Limo Service' /></div>
+                    <div><img src={GlobalImg2} className='w-full h-[250px] md:h-[400px] lg:h-[450px] object-cover' alt='Premium Limo Service Toronto' /></div>
                   </div>
               </div>
             </div>
