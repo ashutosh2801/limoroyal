@@ -180,8 +180,8 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <div className='py-10 lg:py-23 pl-8 lg:pl-20 xl:pl-62 pr-8 lg:pr-0'>
-            <div className='flex flex-col lg:flex-row lg:space-x-10 items-center' data-aos="fade-up">
+          <div className='container mx-auto px-2'>
+            <div className='flex flex-col lg:flex-row lg:space-x-10 items-center py-15' data-aos="fade-up">
               <div className='w-full lg:w-2/5'>
                 <small className='webColor uppercase'>Premium drivers</small>
                 <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5 font-medium'>Our Global Experience</h2>
