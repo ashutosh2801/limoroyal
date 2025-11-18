@@ -28,7 +28,7 @@ const ServiceSidePanel = () => {
             </div>
             <div className='border-b webBorderColor pb-8' data-aos="fade-up">
                 <b className='text-white text-xl lg:text-2xl mt-8 mb-8 font-normal block'>Call us today & avail our services</b>
-                <a href='tel:4167255466' title='Limo Royale Hotline' className='webFontColor mt-5 block text-md md:text-sm lg:text-xl font-semibold'>
+                <a href='tel:+14167255466' title='Limo Royale Hotline' className='webFontColor mt-5 block text-md md:text-sm lg:text-xl font-semibold'>
                     <div className='bg-white rounded-full px-3 lg:px-4 py-3 lg:py-4 mr-2 inline-block'><FontAwesomeIcon icon={faHeadset} className="webColor text-xl lg:text-3xl" /></div> <span className='webColor'>Call Now</span> 416-725-5466
                 </a>
             </div>

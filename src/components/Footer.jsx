@@ -51,7 +51,7 @@ const Footer = () => {
                     <h6 className='text-white text-xl font-semibold mb-5'>Contact Us</h6>
                     <div className='mt-5 flex items-start flex-wrap'>
                         <div className='bg-white rounded-full px-3 py-3 mr-5 inline-block'><PhoneIcon className="h-4 w-4 webColor" /></div>
-                        <a href='tel:4167255466' className='webFontColor' title='Limo Hotline'>416-725-LIMO <br></br> (416-725-5466)</a>
+                        <a href='tel:+14167255466' className='webFontColor' title='Limo Hotline'>416-725-LIMO <br></br> (416-725-5466)</a>
                         <a href='tel:18888705466' className='webFontColor ml-15 mt-5' title='Limo Royale Toll Free'>Toll-Free: <br></br> 1 (888) 870-LIMO (5466)</a>
                     </div>
                     <div className='mt-8 flex items-start flex-wrap'>

@@ -68,7 +68,7 @@ const Home = () => {
               </div>
               <div>
                 <p className='webFontColor text-base leading-relaxed'>At Limo Royale, we go beyond providing simply transportation services. In fact, our goal is to provide a luxurious, memorable, and most satisfactory experience to our clientele. With more than 20 years of experience spanning multiple countries across the globe, we truly understand what clients require. Our expertise in the hotel and hospitality industries adds more depth to our service to clients. Our objective is to provide clients with a royal experience that exceeds expectations in luxury transportation.</p>
-                <a href='tel:4167255466' title='Limo Royale Hotline' className='webFontColor mt-5 block'>
+                <a href='tel:+14167255466' title='Limo Royale Hotline' className='webFontColor mt-5 block'>
                   <div className='bg-white rounded-full px-4 lg:px-5 py-4 mr-2 inline-block'><FontAwesomeIcon icon={faHeadset} className="text-red-800 text-3xl" /></div> <span className='webColor'>Call Center:</span> 416-725-5466
                 </a>
               </div>

@@ -90,7 +90,7 @@ const About = () => {
             </div>
             <div>
               <p className='webFontColor text-base leading-relaxed'>With over two decades of experience across various regions and industries, Limo Royale has gained invaluable insight into what it takes to serve clients at the highest level. Our deep roots in the luxury hotel industry have taught us the importance of not just meeting expectations, but exceeding them. We don’t aim to be just another limo service—we strive to be the best, offering an experience that mirrors the finest standards of hospitality found in the world’s leading hotel chains.</p>
-              <a href='tel:4167255466' title='Limo Royale Hotline' className='webFontColor mt-5 block'>
+              <a href='tel:+14167255466' title='Limo Royale Hotline' className='webFontColor mt-5 block'>
                 <div className='bg-white rounded-full px-3 lg:px-4 py-4 mr-2 inline-block'><FontAwesomeIcon icon={faHeadset} className="text-red-800 text-3xl" /></div> <span className='webColor'>Call Center:</span> 416-725-5466
               </a>
             </div>
@@ -135,9 +135,10 @@ const About = () => {
           </div>          
         </div>
       </div>
+      
       <div>
-        <div className='py-10 lg:py-17 pl-8 xl:pl-62 pr-8 lg:pr-0'>
-          <div className='flex flex-col lg:flex-row lg:space-x-10 items-center' data-aos="fade-up">
+        <div className='container mx-auto px-2'>
+          <div className='flex flex-col lg:flex-row lg:space-x-10 py-15' data-aos="fade-up">
             <div className='w-full lg:w-2/5'>
               <small className='webColor uppercase'>Premium drivers</small>
               <h2 className='text-white text-2xl lg:text-4xl leading-snug my-5 font-medium'>Royale Chauffeur: Your Journey in Expert Hands</h2>
@@ -146,8 +147,8 @@ const About = () => {
             </div>
             <div className='w-full lg:w-3/5'>
                 <div className='grid grid-cols-2 space-x-5 mt-10 lg:mt-0'>
-                  <div><img src={GlobalImg1} className='w-full h-full' alt='Global Experience with Limo Service' /></div>
-                  <div><img src={GlobalImg2} className='w-full h-full' alt='Premium Limo Service Toronto' /></div>
+                  <div><img src={GlobalImg1} className='w-full h-[250px] md:h-[400px] lg:h-[450px] object-cover' alt='Global Experience with Limo Service' /></div>
+                  <div><img src={GlobalImg2} className='w-full h-[250px] md:h-[400px] lg:h-[450px] object-cover' alt='Premium Limo Service Toronto' /></div>
                 </div>
             </div>
           </div>

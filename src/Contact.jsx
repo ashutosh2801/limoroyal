@@ -65,7 +65,7 @@ const Contact = () => {
                             <PhoneIcon className="w-5 h-5 lg:w-8 lg:h-8 text-black" />
                         </div>
                         <h3 className='text-white text-2xl lg:text-3xl mb-5'>Phone</h3>
-                        <a href='tel:4167255466' className='text-base md:text-sm lg:text-base leading-relaxed webFontColor w-full inline-block mb-10'>
+                        <a href='tel:+14167255466' className='text-base md:text-sm lg:text-base leading-relaxed webFontColor w-full inline-block mb-10'>
                             416-725-LIMO<br></br>
                             (416-725-5466)
                         </a>

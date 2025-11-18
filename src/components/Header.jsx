@@ -29,7 +29,7 @@ const Header = () => {
                             </div>
                             <div className='w-3/4'>
                                 <div className='hidden xl:flex justify-end space-x-3'>
-                                    <a href="tel:4167255466;" className='text-white flex items-center'> <PhoneIcon className="h-4 w-4 text-white mr-2" /> 416-725-LIMO (416-725-5466)</a>
+                                    <a href="tel:+14167255466;" className='text-white flex items-center'> <PhoneIcon className="h-4 w-4 text-white mr-2" /> 416-725-LIMO (416-725-5466)</a>
                                     <a href="tel:18888705466;" className='text-white flex items-center'> <PhoneIcon className="h-4 w-4 text-white mr-2" /> Toll-free: 1 (888) 870-LIMO (5466)</a>
                                 </div>
                             </div>
@@ -176,7 +176,7 @@ const Header = () => {
                                         <a href='/luxury-chauffeuring-services-to-londons' className='text-lg text-gray-300 hover:text-white' title='Events'>Events</a>
                                         <a href='/promotions' className='text-lg text-gray-300 hover:text-white' title='Promotions'>Promotions</a>
                                         <div className='mt-4 space-y-5 text-lg'>
-                                        <a href="tel:4167255466;" className='flex items-center' title='Limo Royale Hotline'>
+                                        <a href="tel:+14167255466;" className='flex items-center' title='Limo Royale Hotline'>
                                             <div className='webBG rounded-full p-2 mr-2'><PhoneIcon className="h-4 w-4" /></div> 416-725-LIMO (416-725-5466)
                                         </a>
                                         <a className='flex items-center' title='Limo Royale Hotline'>
